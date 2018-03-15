@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Records">ca07ee090b30030085c083eb37673afc</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Look Up Records">ca07ee090b30030085c083eb37673afc</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Close RITM when all Tasks are closed">a865f2eddbd493407b9b9ea3db9619e3</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-15 13:44:03</sys_created_on>
+        <sys_id>a865f2eddbd493407b9b9ea3db9619f7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_hub_action_instance_a865f2eddbd493407b9b9ea3db9619f7</sys_update_name>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-15 13:44:03</sys_updated_on>
+        <ui_id>acb971f0-c0f2-4f9f-a52c-553c75560790</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a865f2eddbd493407b9b9ea3db9619f7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a865f2eddbd493407b9b9ea3db9619f7</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-15 13:44:03</sys_created_on>
+        <sys_id>6465f2eddbd493407b9b9ea3db9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-15 13:44:03</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="">8a07ee090b30030085c083eb37673aff</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a865f2eddbd493407b9b9ea3db9619f7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>a865f2eddbd493407b9b9ea3db9619f7</id>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-15 13:44:03</sys_created_on>
+        <sys_id>2065f2eddbd493407b9b9ea3db9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-15 13:44:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ca07ee090b30030085c083eb37673afc</table>
+        <value>request_item={{Updated_1.current.request_item.sys_id}}^stateIN-5,1,2</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>a865f2eddbd493407b9b9ea3db9619f7</id>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-15 13:44:03</sys_created_on>
+        <sys_id>e065f2eddbd493407b9b9ea3db9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-15 13:44:03</sys_updated_on>
+        <table>var__m_sys_hub_action_input_ca07ee090b30030085c083eb37673afc</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

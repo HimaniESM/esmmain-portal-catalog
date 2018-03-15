@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="bbd15c9bdb9c57407b9b9ea3db9619bb" sys_domain="global" table="pc_software_cat_item" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>gautham_raj</sys_created_by>
+            <sys_created_on>2018-02-20 12:19:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f7d15c9bdb9c57407b9b9ea3db9619be</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pc_software_cat_item" name="pc_software_cat_item" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">bbd15c9bdb9c57407b9b9ea3db9619bb</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="pc_software_cat_item" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">f3d15c9bdb9c57407b9b9ea3db9619bd</sys_ui_section>
+            <sys_updated_by>gautham_raj</sys_updated_by>
+            <sys_updated_on>2018-02-20 12:19:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>gautham_raj</sys_created_by>
+            <sys_created_on>2018-02-20 12:19:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7d15c9bdb9c57407b9b9ea3db9619c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pc_software_cat_item" name="pc_software_cat_item" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">bbd15c9bdb9c57407b9b9ea3db9619bb</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="pc_software_cat_item" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">fbd15c9bdb9c57407b9b9ea3db9619be</sys_ui_section>
+            <sys_updated_by>gautham_raj</sys_updated_by>
+            <sys_updated_on>2018-02-20 12:19:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>gautham_raj</sys_created_by>
+            <sys_created_on>2018-02-20 12:19:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>73d15c9bdb9c57407b9b9ea3db9619c2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="pc_software_cat_item" name="pc_software_cat_item" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">bbd15c9bdb9c57407b9b9ea3db9619bb</sys_ui_form>
+            <sys_ui_section caption="Costs" display_value="Costs" name="pc_software_cat_item" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">bbd15c9bdb9c57407b9b9ea3db9619c0</sys_ui_section>
+            <sys_updated_by>gautham_raj</sys_updated_by>
+            <sys_updated_on>2018-02-20 12:19:02</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>pc_software_cat_item</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>gautham_raj</sys_created_by>
+            <sys_created_on>2018-02-20 12:19:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bbd15c9bdb9c57407b9b9ea3db9619bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>pc_software_cat_item</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+            <sys_update_name>sys_ui_form_sections_bbd15c9bdb9c57407b9b9ea3db9619bb</sys_update_name>
+            <sys_updated_by>gautham_raj</sys_updated_by>
+            <sys_updated_on>2018-02-20 12:19:02</sys_updated_on>
+            <sys_user/>
+            <view display_value="Item Designer" name="sc_cat_item_designer">f5a795fceb3211003623666cd206fe19</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

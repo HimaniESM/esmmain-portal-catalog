@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Catalog Task on Request Item">6c9267a473210300e4fd234ffff6a70f</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Create Catalog Task on Request Item">6c9267a473210300e4fd234ffff6a70f</compiled_snapshot>
+        <display_text/>
+        <flow display_value="ServiceNow Access">330b9a2ddb9493407b9b9ea3db96194f</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-15 11:49:02</sys_created_on>
+        <sys_id>bf0b9a2ddb9493407b9b9ea3db961955</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_hub_action_instance_bf0b9a2ddb9493407b9b9ea3db961955</sys_update_name>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-15 11:49:02</sys_updated_on>
+        <ui_id>14d1ce7e-02f8-4502-a8cc-55a5751bdbe5</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bf0b9a2ddb9493407b9b9ea3db961955"/>
+    <sys_element_mapping action="delete_multiple" query="id=bf0b9a2ddb9493407b9b9ea3db961955"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_request_item</field>
+        <id>bf0b9a2ddb9493407b9b9ea3db961955</id>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-15 11:49:02</sys_created_on>
+        <sys_id>330b9a2ddb9493407b9b9ea3db961958</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-15 11:49:02</sys_updated_on>
+        <table>var__m_sys_hub_action_input_6c9267a473210300e4fd234ffff6a70f</table>
+        <value>{{Created_1.current}}</value>
+    </sys_element_mapping>
+</record_update>

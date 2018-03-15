@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="catalog_item" label="Catalog Item" language="en" table="x_infte_esm_main_s_request_approval_generator">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>catalog_item</element>
+            <help/>
+            <hint/>
+            <label>Catalog Item</label>
+            <language>en</language>
+            <name>x_infte_esm_main_s_request_approval_generator</name>
+            <plural>Catalog Items</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>gautham_raj</sys_created_by>
+            <sys_created_on>2018-02-18 13:57:51</sys_created_on>
+            <sys_id>c05512a2db1817407b9b9ea3db961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Catalog Item</sys_name>
+            <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+            <sys_update_name>sys_documentation_x_infte_esm_main_s_request_approval_generator_catalog_item_en</sys_update_name>
+            <sys_updated_by>gautham_raj</sys_updated_by>
+            <sys_updated_on>2018-02-18 13:57:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

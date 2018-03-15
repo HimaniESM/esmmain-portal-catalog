@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="pc_vendor_cat_item">
+    <pc_vendor_cat_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description><![CDATA[<p style="box-sizing: border-box; margin: 0px 0px 9px; color: #343d47; font-family: SourceSansPro, &#39;Helvetica Neue&#39;, Arial; font-size: 13px;"><span style="box-sizing: border-box; font-size: medium;"><span style="box-sizing: border-box; color: gray;">Efficient and High-quality Black and White Laser Output</span></span></p>
+<p style="box-sizing: border-box; margin: 0px 0px 9px; color: #343d47; font-family: SourceSansPro, &#39;Helvetica Neue&#39;, Arial; font-size: 13px;"><span style="box-sizing: border-box; color: gray;">Smart Paper Handling<br style="box-sizing: border-box;" />The LBP6650dn boast print speeds of up to 35 pages-per-minute (ppm) for letter-sized output, and delivers Quick First Prints in approximately 6 seconds. The unit also offers a large paper handling of up to 250 pages in a front-loading cassette and provides duplex output for printing professional-quality documents.</span></p>
+<p style="box-sizing: border-box; margin: 0px 0px 9px; color: #343d47; font-family: SourceSansPro, &#39;Helvetica Neue&#39;, Arial; font-size: 13px;"><span style="box-sizing: border-box; color: gray;">Networkable<br style="box-sizing: border-box;" />The imageCLASS LBP6650dn delivers large-office network capabilities in an affordable compact package. It is networkable over an Ethernet, so everyone can easily share printing capabilities directly from their PC.</span></p>]]></description>
+        <features/>
+        <list_price>550</list_price>
+        <model display_value="Canon imageCLASS Laser Printer">82133190c0a8018b353ded26e241ce0a</model>
+        <name>Canon imageCLASS Laser Printer (Canon - LBP-6650DN)</name>
+        <out_of_stock>false</out_of_stock>
+        <picture/>
+        <price>499.99</price>
+        <product_catalog_item display_value="Canon imageCLASS Laser Printer">3616ea3edb5057407b9b9ea3db9619ab</product_catalog_item>
+        <product_id>LBP-6650DN</product_id>
+        <short_description/>
+        <specs/>
+        <sys_class_name>pc_vendor_cat_item</sys_class_name>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 09:52:28</sys_created_on>
+        <sys_id>b786ee3edb5057407b9b9ea3db9619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Canon imageCLASS Laser Printer (Canon - LBP-6650DN)</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>pc_vendor_cat_item_b786ee3edb5057407b9b9ea3db9619e5</sys_update_name>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-19 09:52:28</sys_updated_on>
+        <upc/>
+        <vendor display_value="Canon">b7ef1babc0a801690041986c505a0446</vendor>
+    </pc_vendor_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=b786ee3edb5057407b9b9ea3db9619e5"/>
+</record_update>

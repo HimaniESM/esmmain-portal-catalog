@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="pc_vendor_cat_item">
+    <pc_vendor_cat_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description><![CDATA[<p style="box-sizing: border-box; margin: 0px 0px 9px; color: #343d47; font-family: SourceSansPro, &#39;Helvetica Neue&#39;, Arial; font-size: 13px;"><span style="box-sizing: border-box; font-size: 12pt;"><span style="box-sizing: border-box; color: gray;">Main Features</span></span></p>
+<ul style="box-sizing: border-box; padding: 0px; margin: 0px 0px 9px; color: #343d47; font-family: SourceSansPro, &#39;Helvetica Neue&#39;, Arial; font-size: 13px; list-style-position: inside;"><li style="box-sizing: border-box; font-size: 10pt;">Fast color output. With a print speed up to 25ppm in both color and black, you no longer hav e to wait for brilliant color output.</li><li style="box-sizing: border-box; font-size: 10pt;">Easily print two-sided documents. Using the color laser printer&#39;s duplex printing feature, you can help reduce your printing costs and produce two-sided documents, presentations and brochures.</li><li style="box-sizing: border-box; font-size: 10pt;">Built-in Networking. Share the HL-4150CDN with everyone on your network via its built-in Ethernet network interface.</li><li style="box-sizing: border-box; font-size: 10pt;">Flexible paper handling. Use the 250-sheet capacity paper tray for letter or legal paper. Plus, a 50-sheet capacity multi-purpose tray for envelopes or thicker media.</li><li style="box-sizing: border-box; font-size: 10pt;">Brother™ iPrint&amp;Scan. Free app download for wireless printing (JPEG, PDF, web page &amp; e-mail) from your Apple®, Android™ or Windows® Phone 7 (JPEG only) mobile device</li></ul>]]></description>
+        <features/>
+        <list_price>444.99</list_price>
+        <model display_value="Brother Network-Ready Color Laser Printer">f8fdc4df0a0a0b91009008b52d01b55d</model>
+        <name>Brother Network-Ready Color Laser Printer (Amazon - HL-4150CDN)</name>
+        <out_of_stock>false</out_of_stock>
+        <picture/>
+        <price>399.5</price>
+        <product_catalog_item display_value="Brother Network-Ready Color Laser Printer">cab1e27adb5057407b9b9ea3db96193c</product_catalog_item>
+        <product_id>HL-4150CDN</product_id>
+        <short_description/>
+        <specs/>
+        <sys_class_name>pc_vendor_cat_item</sys_class_name>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 09:35:53</sys_created_on>
+        <sys_id>e8b22e7adb5057407b9b9ea3db96190d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Brother Network-Ready Color Laser Printer (Amazon - HL-4150CDN)</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>pc_vendor_cat_item_e8b22e7adb5057407b9b9ea3db96190d</sys_update_name>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-19 09:35:53</sys_updated_on>
+        <upc/>
+        <vendor display_value="Amazon">adb3d8ce37413000158bbfc8bcbe5d15</vendor>
+    </pc_vendor_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=e8b22e7adb5057407b9b9ea3db96190d"/>
+</record_update>

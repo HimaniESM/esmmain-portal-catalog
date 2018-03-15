@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Create Tasks">330b9a66db1817407b9b9ea3db9619da</flow>
+        <order>2.2</order>
+        <parent_ui_id>b18e763a-190d-4642-bcbb-fa5301169975</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-18 14:22:58</sys_created_on>
+        <sys_id>3b0bda66db1817407b9b9ea3db961904</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_hub_action_instance_3b0bda66db1817407b9b9ea3db961904</sys_update_name>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-18 14:22:58</sys_updated_on>
+        <ui_id>cf249e01-e34b-4a80-83ae-11366bf95148</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3b0bda66db1817407b9b9ea3db961904"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3b0bda66db1817407b9b9ea3db961904</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-18 14:22:58</sys_created_on>
+        <sys_id>770bda66db1817407b9b9ea3db961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-18 14:22:58</sys_updated_on>
+        <value>sc_task</value>
+        <variable display_value="">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3b0bda66db1817407b9b9ea3db961904"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>3b0bda66db1817407b9b9ea3db961904</id>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-18 14:22:58</sys_created_on>
+        <sys_id>330bda66db1817407b9b9ea3db961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-18 14:22:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{d530650a-f335-4b1c-b4eb-18c01dbba39b.Catalog Task}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3b0bda66db1817407b9b9ea3db961904</id>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-18 14:22:58</sys_created_on>
+        <sys_id>7f0bda66db1817407b9b9ea3db961906</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-18 14:22:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>3b0bda66db1817407b9b9ea3db961904</id>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-18 14:22:58</sys_created_on>
+        <sys_id>f30bda66db1817407b9b9ea3db961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-18 14:22:58</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>short_description={{b18e763a-190d-4642-bcbb-fa5301169975.item.task_name}}^description={{b18e763a-190d-4642-bcbb-fa5301169975.item.task_description}}^assignment_group={{b18e763a-190d-4642-bcbb-fa5301169975.item.assignment_group}}^order={{b18e763a-190d-4642-bcbb-fa5301169975.item.task_order}}^request_item={{Created or Updated_1.current}}</value>
+    </sys_element_mapping>
+</record_update>

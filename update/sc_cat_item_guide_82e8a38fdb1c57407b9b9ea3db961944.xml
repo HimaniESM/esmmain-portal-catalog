@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_guide">
+    <sc_cat_item_guide action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <cascade>false</cascade>
+        <category display_value="Software Services">c73ab4d1db9853407b9b9ea3db961922</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><strong><span style="font-size: 14.0pt; color: black;">You can use this form to request access for the following: </span></strong></p>
+<ul style="list-style-position: inside;"><li style="color: black;"><span style="font-size: 14.0pt;">Snagit</span></li><li style="color: black;"><span style="font-size: 14.0pt;">Acrobat</span></li><li style="color: black;"><span style="font-size: 14.0pt;">Dreamweaver</span></li><li style="color: black;"><span style="font-size: 14.0pt;">VMware Fusion</span></li><li style="color: black;"><span style="font-size: 14.0pt;">Adobe Acrobat Pro</span></li><li style="color: black;"><span style="font-size: 14.0pt;">Microsoft Visio Professional</span></li></ul>
+<p><span style="font-size: 14.0pt; color: black;">To ensure your request is efficiently processed, please ensure you select the right item from the drop down and provide as much detail as possible in the description of the request and the business justification.</span>  </p>
+<p><span style="font-size: 14.0pt; font-style: italic; color: black;">Do not use this form to request access to software not listed in drop down.</span></p>]]></description>
+        <entitlement_script/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <include_items>true</include_items>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Request For Software</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <order_to_cart>false</order_to_cart>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_guide_view.do?v=1&amp;sysparm_initial=true&amp;sysparm_guide=82e8a38fdb1c57407b9b9ea3db961944&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <roles/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <script/>
+        <short_description>The request is to deploy both Standard and Paid Applications  to the workstations</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item_guide</sys_class_name>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-20 09:20:29</sys_created_on>
+        <sys_id>82e8a38fdb1c57407b9b9ea3db961944</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Request For Software</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sc_cat_item_guide_82e8a38fdb1c57407b9b9ea3db961944</sys_update_name>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-20 11:43:04</sys_updated_on>
+        <template/>
+        <two_step>true</two_step>
+        <type>item</type>
+        <u_order_guide_attached/>
+        <use_sc_layout>true</use_sc_layout>
+        <validator/>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item_guide>
+    <sys_translated_text action="delete_multiple" query="documentkey=82e8a38fdb1c57407b9b9ea3db961944"/>
+    <fx_price action="delete_multiple" query="id=82e8a38fdb1c57407b9b9ea3db961944"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>82e8a38fdb1c57407b9b9ea3db961944</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-20 09:20:29</sys_created_on>
+        <sys_id>d009e38fdb1c57407b9b9ea3db961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-20 09:20:29</sys_updated_on>
+        <table>sc_cat_item_guide</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>82e8a38fdb1c57407b9b9ea3db961944</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-20 09:20:29</sys_created_on>
+        <sys_id>9009e38fdb1c57407b9b9ea3db961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-20 09:20:29</sys_updated_on>
+        <table>sc_cat_item_guide</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#0</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>picture</file_name>
+        <image_height>225</image_height>
+        <image_width>225</image_width>
+        <size_bytes>3927</size_bytes>
+        <size_compressed>3950</size_compressed>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-20 13:40:34</sys_created_on>
+        <sys_id>da842897dbdc57407b9b9ea3db9619ae</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-20 13:40:34</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_guide</table_name>
+        <table_sys_id>82e8a38fdb1c57407b9b9ea3db961944</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="da842897dbdc57407b9b9ea3db9619ae">da842897dbdc57407b9b9ea3db9619ae</sys_attachment>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-20 13:40:34</sys_created_on>
+        <sys_id>1e842897dbdc57407b9b9ea3db9619ae</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>5256</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="da842897dbdc57407b9b9ea3db9619ae">da842897dbdc57407b9b9ea3db9619ae</sys_attachment>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-20 13:40:34</sys_created_on>
+        <sys_id>9e842897dbdc57407b9b9ea3db9619ae</sys_id>
+    </sys_attachment_doc>
+</record_update>

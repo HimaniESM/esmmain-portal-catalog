@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">e6746ea1dbd493407b9b9ea3db9619b2</block>
+        <connected_to/>
+        <display_text/>
+        <flow display_value="Close RITM when all Tasks are closed">1d78aa65dbd493407b9b9ea3db9619c4</flow>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-15 12:47:35</sys_created_on>
+        <sys_id>e578ea65dbd493407b9b9ea3db961932</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_e578ea65dbd493407b9b9ea3db961932</sys_update_name>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-15 12:47:35</sys_updated_on>
+        <ui_id>79c11aa7-813d-4f69-92d4-20efc3ecd7de</ui_id>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e578ea65dbd493407b9b9ea3db961932"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e578ea65dbd493407b9b9ea3db961932</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-15 12:47:35</sys_created_on>
+        <sys_id>2978ea65dbd493407b9b9ea3db961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-15 12:47:35</sys_updated_on>
+        <value>Verify all tasks are closed</value>
+        <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>e578ea65dbd493407b9b9ea3db961932</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-15 12:47:35</sys_created_on>
+        <sys_id>6578ea65dbd493407b9b9ea3db961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-15 12:47:35</sys_updated_on>
+        <value>{{b398e9a4-6e06-4988-b981-1e21036a4ee0.all_tasks_are_closed}}=true</value>
+        <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
+    </sys_variable_value>
+</record_update>

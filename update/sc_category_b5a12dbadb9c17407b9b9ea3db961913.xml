@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Desktop computers for your work area.</description>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent display_value="Hardware Services">211af0d1db9853407b9b9ea3db96191c</parent>
+        <roles/>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <show_in_cms>false</show_in_cms>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 04:53:17</sys_created_on>
+        <sys_id>b5a12dbadb9c17407b9b9ea3db961913</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Desktops</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sc_category_b5a12dbadb9c17407b9b9ea3db961913</sys_update_name>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-19 05:25:48</sys_updated_on>
+        <title>Desktops</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=b5a12dbadb9c17407b9b9ea3db961913"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#0</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>homepage_image</file_name>
+        <image_height>72</image_height>
+        <image_width>73</image_width>
+        <size_bytes>730</size_bytes>
+        <size_compressed>742</size_compressed>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 04:53:23</sys_created_on>
+        <sys_id>864221fadb9c17407b9b9ea3db96191e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-19 04:53:23</sys_updated_on>
+        <table_name>ZZ_YYsc_category</table_name>
+        <table_sys_id>b5a12dbadb9c17407b9b9ea3db961913</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="homepage_image" sys_id="864221fadb9c17407b9b9ea3db96191e">864221fadb9c17407b9b9ea3db96191e</sys_attachment>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 04:53:23</sys_created_on>
+        <sys_id>8e4221fadb9c17407b9b9ea3db96191e</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSnkDswcHMwMD465vEXSCHsTjI3Ylh3TmZl0AOS7qjryMDw8Z+7j+JrEB+WoBPiCuQXn/evry8fPl586qqqtXnzWtqalactwSyV4FFVp23qK6uXnneHEiuOmcBEjkHEl95zgLIAApOXR0yc2MARKp3TsJKsODkpVHzdnkuOeqw/JQN0ISiCr4TQJtkSoL8ghkEFBQMHAICEhIKChoa5s9fv37//vP3geD9+/e373jlAtVxFnhEFjMw8B0GYcbj+StSgF656uniGOLh/XZaZ1izgYDryqhc3R0Odzfe+v/fM73SoU1FVfTLgyJ/f2ufuLhJihdS9KoXcT5t3qA3cxbrF9cjzr+mPLWM3xgZm+3tbO6QrDfxxvQ7t57dOjFXUNtSKcw2nT0vrUBT4enzGPF5/+sET7SWzCkuPHbgq0XCs3MSkpMnvVdynJo9sdU69O2W0BOHV/bOX8SkWtKzZIlJQ9Alt83PPT11tNy6MoIvZebEPrzaVMJvsk3h7mETEeHKp7vOMKwKKpto9SR+waStta87um7qsIWzLtnfnjnBmqV9llyjWOmLBZUmDh83RybF8m4/If1rEVfl4SVKLmc8JiZ2WT589zti4h4f2xCWpOiMY4veVEVsubL82YaM2WvbXRPmLeJw755yxbavtqXe5Zh4bJJIuuy/Av8LV7Q9nJQ87oQvUm9q2tn0TD4xViZpc0POjLqzv1nM/Sf8tApVlLN/3MLNLR/cVxbVNsH8gY/Wv2+vPvSEH060UjfM7ZDXXVywvUP4kIrHefvGqx8V/VU6/1gvTZzDxafN6W4VW6Dhz26YV6p/NYz50fXQOwbhy5U7Lfa+l5H7JKLk15b5X/DchrZpDwzVjr5kY5NVX2Wgsubc7KCKoMN+2l/MWNb4XVQ+Zrur6s9M5fhptQxO7C+rhVg09zKAkq+rn8s6p4QmANvvOXLaAgAA</data>
+        <length>976</length>
+        <position>1</position>
+        <sys_attachment display_value="homepage_image" sys_id="864221fadb9c17407b9b9ea3db96191e">864221fadb9c17407b9b9ea3db96191e</sys_attachment>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 04:53:23</sys_created_on>
+        <sys_id>024221fadb9c17407b9b9ea3db96191f</sys_id>
+    </sys_attachment_doc>
+</record_update>

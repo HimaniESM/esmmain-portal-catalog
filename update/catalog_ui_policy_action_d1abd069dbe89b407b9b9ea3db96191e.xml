@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Mac Book Pro Power Adapter">1de87ef6db9057407b9b9ea3db9619ac</catalog_item>
+        <catalog_variable>IO:5c92cce3db9497407b9b9ea3db961978</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-27 12:48:08</sys_created_on>
+        <sys_id>d1abd069dbe89b407b9b9ea3db96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sap_application</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d1abd069dbe89b407b9b9ea3db96191e</sys_update_name>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-27 12:48:08</sys_updated_on>
+        <table/>
+        <ui_policy display_value="to hide few fields present in variable set">f99b9069dbe89b407b9b9ea3db961921</ui_policy>
+        <variable>sap_application</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

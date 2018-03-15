@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="catalog_ui_policy">
+    <catalog_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_req_item>true</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>set</applies_to>
+        <catalog_conditions>IO:587a328fdb9857407b9b9ea3db961976=temporary^EQ</catalog_conditions>
+        <catalog_item/>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>60</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Show/Hide Validity Date</short_description>
+        <sys_class_name>catalog_ui_policy</sys_class_name>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-20 06:58:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>817803c7dbd857407b9b9ea3db961905</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Show/Hide Validity Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>catalog_ui_policy_817803c7dbd857407b9b9ea3db961905</sys_update_name>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-20 11:32:29</sys_updated_on>
+        <table/>
+        <ui_type>0</ui_type>
+        <variable_set display_value="Software Catalog Variables">46c3368bdb9857407b9b9ea3db961997</variable_set>
+        <view/>
+    </catalog_ui_policy>
+</record_update>

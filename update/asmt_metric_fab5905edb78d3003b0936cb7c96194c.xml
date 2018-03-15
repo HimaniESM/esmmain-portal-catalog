@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="asmt_metric">
+    <asmt_metric action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <add_info_label>Additional Information</add_info_label>
+        <allow_add_info>false</allow_add_info>
+        <allow_not_applicable>true</allow_not_applicable>
+        <auto_gen>false</auto_gen>
+        <category display_value="ESM Incident Survey">86ef400adb70d3003b0936cb7c961989</category>
+        <cond_question>always</cond_question>
+        <correct_answer/>
+        <correct_answer_checkbox>1</correct_answer_checkbox>
+        <correct_answer_choice/>
+        <correct_answer_template/>
+        <correct_answer_yesno>1</correct_answer_yesno>
+        <datatype>string</datatype>
+        <default_value_field/>
+        <depends_on/>
+        <description/>
+        <details/>
+        <displayed_when/>
+        <displayed_when_checkbox/>
+        <displayed_when_template/>
+        <displayed_when_yesno/>
+        <duration/>
+        <mandatory>false</mandatory>
+        <max>10</max>
+        <max_weight/>
+        <method>assessment</method>
+        <metric_type display_value="ESM Incident Survey">f09f8cc6db70d3003b0936cb7c9619cf</metric_type>
+        <min>1</min>
+        <name>comments</name>
+        <order>600</order>
+        <plugin/>
+        <question>Do you have any comments or suggestions to make the management to help provide you with better service?</question>
+        <randomize_answers>false</randomize_answers>
+        <reference_table/>
+        <scale>low</scale>
+        <scored>false</scored>
+        <script><![CDATA[// The following variables are available:  // - primary: contains the sys_id of the assessable object to be evaluated  // - string_result: the script sets the display string value for this metric to this variable  // - actual_result: the script sets the actual value for this metric to this variable  // - scaled_result: the script sets the scaled value (used in calculations) for this metric to this variable  //  // For example: // var gr = new GlideRecord('cmdb_ci'); // gr.addQuery('manufacturer', primary); // gr.query(); // actual_result = gr.getRowCount(); // string_result = actual_result + ''; // if (actual_result &gt; 100) scaled_result = 5; // else scaled_result = 1;]]></script>
+        <string_option>multiline</string_option>
+        <sys_class_name>asmt_metric</sys_class_name>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-03-14 06:33:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fab5905edb78d3003b0936cb7c96194c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>comments</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>asmt_metric_fab5905edb78d3003b0936cb7c96194c</sys_update_name>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-03-14 06:33:22</sys_updated_on>
+        <template/>
+        <weight>10</weight>
+    </asmt_metric>
+    <sys_translated_text action="delete_multiple" query="documentkey=fab5905edb78d3003b0936cb7c96194c"/>
+</record_update>

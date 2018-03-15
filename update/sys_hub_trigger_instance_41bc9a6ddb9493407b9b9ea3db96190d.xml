@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_trigger_instance">
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <display_text/>
+        <flow display_value="ServiceNow Access">09bc9a6ddb9493407b9b9ea3db96190b</flow>
+        <name>Created</name>
+        <remote_sys_id>881b9a2ddb9493407b9b9ea3db96196b</remote_sys_id>
+        <sys_class_name>sys_hub_trigger_instance</sys_class_name>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-15 11:56:14</sys_created_on>
+        <sys_id>41bc9a6ddb9493407b9b9ea3db96190d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>record_create</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_hub_trigger_instance_41bc9a6ddb9493407b9b9ea3db96190d</sys_update_name>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-15 11:56:14</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=41bc9a6ddb9493407b9b9ea3db96190d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>41bc9a6ddb9493407b9b9ea3db96190d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-15 11:56:14</sys_created_on>
+        <sys_id>05bc9a6ddb9493407b9b9ea3db96190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-15 11:56:14</sys_updated_on>
+        <value>sc_req_item</value>
+        <variable display_value="">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>41bc9a6ddb9493407b9b9ea3db96190d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-15 11:56:14</sys_created_on>
+        <sys_id>41bc9a6ddb9493407b9b9ea3db96190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-15 11:56:14</sys_updated_on>
+        <value>cat_item=8e8c1519dbd853407b9b9ea3db961980</value>
+        <variable display_value="">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+</record_update>

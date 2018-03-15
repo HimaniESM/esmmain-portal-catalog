@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Add Variables to Task">08539f7adbd057407b9b9ea3db961955</action>
+        <cid>2fdf864c-25d5-48e9-995a-d0c2b3cef0e5</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-19 13:07:16</sys_created_on>
+        <sys_id>f0539f7adbd057407b9b9ea3db9619c6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Script step</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_hub_step_instance_f0539f7adbd057407b9b9ea3db9619c6</sys_update_name>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-19 13:07:17</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f0539f7adbd057407b9b9ea3db9619c6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f0539f7adbd057407b9b9ea3db9619c6</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-19 13:07:17</sys_created_on>
+        <sys_id>74539f7adbd057407b9b9ea3db9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-19 13:07:17</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  
+   var my_sc_item_option_mtom = new GlideRecord ('sc_item_option_mtom');
+   my_sc_item_option_mtom.addQuery('request_item', inputs.ritm);
+   my_sc_item_option_mtom.addQuery('sc_item_option.item_option_new.name', 'IN', inputs.varToShow);
+   my_sc_item_option_mtom.query();
+   while (my_sc_item_option_mtom.next()){
+
+       var myTaskVar = new GlideRecord('sc_item_variables_task');
+       myTaskVar.initialize();
+       myTaskVar.task = inputs.task;
+       myTaskVar.variable = my_sc_item_option_mtom.sc_item_option.item_option_new;
+       myTaskVar.insert();
+   }
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f0539f7adbd057407b9b9ea3db9619c6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ritm</field>
+        <id>f0539f7adbd057407b9b9ea3db9619c6</id>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-19 13:07:17</sys_created_on>
+        <sys_id>78539f7adbd057407b9b9ea3db9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-19 13:07:17</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_f0539f7adbd057407b9b9ea3db9619c6</table>
+        <value>{{action.ah_task.request_item.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>f0539f7adbd057407b9b9ea3db9619c6</id>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-19 13:07:17</sys_created_on>
+        <sys_id>f0539f7adbd057407b9b9ea3db9619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-19 13:07:17</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task</field>
+        <id>f0539f7adbd057407b9b9ea3db9619c6</id>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-19 13:07:17</sys_created_on>
+        <sys_id>b4539f7adbd057407b9b9ea3db9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-19 13:07:17</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_f0539f7adbd057407b9b9ea3db9619c6</table>
+        <value>{{action.ah_task.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>varToShow</field>
+        <id>f0539f7adbd057407b9b9ea3db9619c6</id>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-19 13:07:17</sys_created_on>
+        <sys_id>f0539f7adbd057407b9b9ea3db9619e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-19 13:07:17</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_f0539f7adbd057407b9b9ea3db9619c6</table>
+        <value>{{action.ah_variablestoshow}}</value>
+    </sys_element_mapping>
+</record_update>

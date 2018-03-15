@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"Created_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"Created_1.current.opened_by","label":"Trigger➛Requested Item Record➛Opened by","reference":"sys_user","reference_display":"Opened by","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"opened_by"},{"name":"cca7708c-d760-41c2-ac61-61017218b3c8.table_name","label":"2➛Catalog Task Table","reference":"sc_task","reference_display":"Catalog Task Table"},{"name":"cca7708c-d760-41c2-ac61-61017218b3c8.record","label":"2➛Catalog Task Record","reference":"sc_task","reference_display":"Catalog Task Record"},{"name":"Created_1.current","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference"},{"name":"14d1ce7e-02f8-4502-a8cc-55a5751bdbe5.Catalog Task","label":"1➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task"},{"name":"14d1ce7e-02f8-4502-a8cc-55a5751bdbe5.Catalog Task.state","label":"1➛Catalog Task➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"sc_task","column_name":"state"},{"name":"ff199b3c-ff59-4013-9427-c5d333babb09.record","label":"3.1➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item Record"},{"name":"ff199b3c-ff59-4013-9427-c5d333babb09.table_name","label":"3.1➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item Table"},{"name":"ff199b3c-ff59-4013-9427-c5d333babb09.record.opened_by","label":"3.1➛Requested Item Record➛Opened by","reference":"sys_user","reference_display":"Opened by","type":"reference","base_type":"reference","parent_table_name":"sc_req_item","column_name":"opened_by"}]</label_cache>
+        <name>Create Tasks</name>
+        <parent_flow display_value="Create Tasks">d8865a69db9493407b9b9ea3db961929</parent_flow>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-15 14:39:52</sys_created_on>
+        <sys_id>9222c7a5db1893407b9b9ea3db96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create Tasks</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_9222c7a5db1893407b9b9ea3db96198e</sys_update_name>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-15 14:39:52</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

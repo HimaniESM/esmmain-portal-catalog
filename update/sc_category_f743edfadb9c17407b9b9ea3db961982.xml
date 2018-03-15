@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>A range of tablet devices for employees in the field.</description>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent display_value="Hardware Services">211af0d1db9853407b9b9ea3db96191c</parent>
+        <roles/>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <show_in_cms>false</show_in_cms>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 05:00:23</sys_created_on>
+        <sys_id>f743edfadb9c17407b9b9ea3db961982</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Tablets</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sc_category_f743edfadb9c17407b9b9ea3db961982</sys_update_name>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-19 10:37:28</sys_updated_on>
+        <title>Tablets</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=f743edfadb9c17407b9b9ea3db961982"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#0</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>homepage_image</file_name>
+        <image_height>72</image_height>
+        <image_width>73</image_width>
+        <size_bytes>477</size_bytes>
+        <size_compressed>489</size_compressed>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 05:00:29</sys_created_on>
+        <sys_id>dee3253edb9c17407b9b9ea3db961937</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-19 05:00:30</sys_updated_on>
+        <table_name>ZZ_YYsc_category</table_name>
+        <table_sys_id>f743edfadb9c17407b9b9ea3db961982</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="homepage_image" sys_id="dee3253edb9c17407b9b9ea3db961937">dee3253edb9c17407b9b9ea3db961937</sys_attachment>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 05:00:29</sys_created_on>
+        <sys_id>12e3253edb9c17407b9b9ea3db961938</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSnkDswcHMwMD465vEXSCHsTjI3Ylh3TmZl0AOS7qjryMDw8Z+7j+JrEC+QYBPiCuQ7t/v377fv2u/f/d+/55D/l0HQagbiA4EAFHXwYBuMIIw1mqJsgP18JcE+QUzCCgYOAQkFDT0z99//v77JTURPEApzgKPyGIGBr7DIMx4PH9FCtAd0p4ujiEe3m+v3550SIGnIVFrHv/Xv/evCdU9Cdiw4vGa3bPfL2pTOdszt2vtyZhW/vft0w9b6Ey6o3HRmj399SKrlc1Xpij/yBCZWHW305FPM+zRPKUZvzjrqk9JPvU4deqQ8td5zIeN3LsYX0qempF+p/yi3vvoXd9avbdyH1Xavm7Bl7ts/ydrrVnRlJO5QOebirf6q0W7Ow0uqeVeWua5tvOt9ipT1jxtnk3LeD3dzXxkVlSfrCt8dnmh1JobzMHTbu1P3snA/SJP8tLpvSk1BRsvP18mZ31utnf+armbb6dxTt5Rf/tO/JeUSqHTZu8K5m5xUOeclmvluSHnsmdT6mw/IZ3bdQlB65err5V+n8yvNvNX8sFrN14t2Vix9XTEOof2023F/+yS82x2BU6Xk//MywCKQVc/l3VOCU0AZudgad0BAAA=</data>
+        <length>640</length>
+        <position>1</position>
+        <sys_attachment display_value="homepage_image" sys_id="dee3253edb9c17407b9b9ea3db961937">dee3253edb9c17407b9b9ea3db961937</sys_attachment>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 05:00:29</sys_created_on>
+        <sys_id>92e3253edb9c17407b9b9ea3db961938</sys_id>
+    </sys_attachment_doc>
+</record_update>

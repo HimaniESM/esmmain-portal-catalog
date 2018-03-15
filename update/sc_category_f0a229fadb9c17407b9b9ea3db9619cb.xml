@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Cell phones to meet your business needs.</description>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent display_value="Hardware Services">211af0d1db9853407b9b9ea3db96191c</parent>
+        <roles/>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <show_in_cms>false</show_in_cms>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 04:55:44</sys_created_on>
+        <sys_id>f0a229fadb9c17407b9b9ea3db9619cb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Mobiles</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sc_category_f0a229fadb9c17407b9b9ea3db9619cb</sys_update_name>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-19 08:51:20</sys_updated_on>
+        <title>Mobiles</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=f0a229fadb9c17407b9b9ea3db9619cb"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#0</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>icon</file_name>
+        <image_height>72</image_height>
+        <image_width>73</image_width>
+        <size_bytes>527</size_bytes>
+        <size_compressed>540</size_compressed>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 04:55:52</sys_created_on>
+        <sys_id>6ed229fadb9c17407b9b9ea3db9619ea</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-19 04:55:52</sys_updated_on>
+        <table_name>ZZ_YYsc_category</table_name>
+        <table_sys_id>f0a229fadb9c17407b9b9ea3db9619cb</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="6ed229fadb9c17407b9b9ea3db9619ea">6ed229fadb9c17407b9b9ea3db9619ea</sys_attachment>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 04:55:52</sys_created_on>
+        <sys_id>aed229fadb9c17407b9b9ea3db9619ea</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSnkDswcHMwMD465vEXSCHsTjI3Ylh3TmZl0AOS7qjryMDw8Z+7j+JrEC+cYBPiCuQfh9v/zzc/mWU/etw+9eR9i/D7V9FgNnhDq8jHF6FO7yKcICzgWSCQPM+oDaBkiC/YAYBBQOHgISChv756/efv/9eWaqpCyjHWeARWczAwHcYhBmP569IAbrF09PFMcTD++3015OaFXhaV06Pvb710W/7t5OeLDjYNNlqrt/tp7+TPfiOe7dGTN/EktSR/GBdQfGH6B0LX1XN07z1rO2Ad0jDEpY2nzna7A8fWlo9fbdn+cufYtNSD1k09Ng58tw3ET1ocWCxiWiqhG3Tj4JWwZuyQTIdM52fBJe9XNVl43o1s0trWazyk2C1lZXftQ/2/HleMFVauKY5h2uVtoe6SYxkZWLBjcULOO3dTjU0Lbu8e3axs6ikq6ySr+jeFS+63nZKci+SdV9Uut5KoJXbuf905yOj96ma4mVHxFw/tJY81eypeFNZ8yLN7cnt1sD3THGKh7JKP0+6N+H27qIJl8/8VWaPvWXrd1LJZ8G3kLkd/99NuctqHKIuffWkW+kmR7/jc0pmWV9/E/XSUn2nf00I4+rLrFUHeMNNHzTsnLtdzpgrQr9zR42/at2nen57ief/GOJXmJ00DGe4zwCKc1c/l3VOCU0AFA+WaQ8CAAA=</data>
+        <length>708</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="6ed229fadb9c17407b9b9ea3db9619ea">6ed229fadb9c17407b9b9ea3db9619ea</sys_attachment>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 04:55:52</sys_created_on>
+        <sys_id>22d229fadb9c17407b9b9ea3db9619eb</sys_id>
+    </sys_attachment_doc>
+</record_update>

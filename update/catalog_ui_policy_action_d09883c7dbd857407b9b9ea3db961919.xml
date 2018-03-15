@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:4e9b3e8fdb9857407b9b9ea3db96190e</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-20 06:58:53</sys_created_on>
+        <sys_id>d09883c7dbd857407b9b9ea3db961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>validity_date</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_d09883c7dbd857407b9b9ea3db961919</sys_update_name>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-20 06:58:53</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Show/Hide Validity Date">817803c7dbd857407b9b9ea3db961905</ui_policy>
+        <variable>validity_date</variable>
+        <variable_set display_value="Software Catalog Variables">46c3368bdb9857407b9b9ea3db961997</variable_set>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

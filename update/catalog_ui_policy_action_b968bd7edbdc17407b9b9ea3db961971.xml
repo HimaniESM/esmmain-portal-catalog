@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Apple iPhone 8">0300fd36dbdc17407b9b9ea3db96191a</catalog_item>
+        <catalog_variable>IO:fd027df6dbdc17407b9b9ea3db96198d</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 06:30:07</sys_created_on>
+        <sys_id>b968bd7edbdc17407b9b9ea3db961971</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>originalnumber</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_b968bd7edbdc17407b9b9ea3db961971</sys_update_name>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-19 06:30:07</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide Original Number">9158f97edbdc17407b9b9ea3db9619d8</ui_policy>
+        <variable>originalnumber</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

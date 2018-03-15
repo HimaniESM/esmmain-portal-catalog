@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <description/>
+        <label_cache>[{"name":"{{action.ah_task}}","label":"action➛Task","type":"action","ref":"sc_task"},{"name":"{{action.ah_task.request_item}}","label":"action➛Task➛Request item","type":"action","ref":"sc_req_item"},{"name":"{{action.ah_task.request_item.sys_id}}","label":"action➛Task➛Request item➛Sys ID","type":"action","ref":""},{"name":"{{action.ah_variablestoshow}}","label":"action➛VariablesToShow","type":"action","ref":""},{"name":"{{action.ah_task.sys_id}}","label":"action➛Task➛Sys ID","type":"action","ref":""}]</label_cache>
+        <latest_snapshot display_value="Add Variables to Task">08539f7adbd057407b9b9ea3db961955</latest_snapshot>
+        <name>Add Variables to Task</name>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-15 12:11:10</sys_created_on>
+        <sys_id>c420eaeddb9493407b9b9ea3db961982</sys_id>
+        <sys_mod_count>36</sys_mod_count>
+        <sys_name>Add Variables to Task</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_c420eaeddb9493407b9b9ea3db961982</sys_update_name>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-19 13:07:17</sys_updated_on>
+        <system_level>false</system_level>
+    </sys_hub_action_type_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=c420eaeddb9493407b9b9ea3db961982"/>
+</record_update>

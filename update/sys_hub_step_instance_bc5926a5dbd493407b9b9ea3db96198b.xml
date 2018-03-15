@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Verify All tasks are closed">2059e2a5dbd493407b9b9ea3db96191f</action>
+        <cid>2fdf864c-25d5-48e9-995a-d0c2b3cef0e5</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-15 12:51:21</sys_created_on>
+        <sys_id>bc5926a5dbd493407b9b9ea3db96198b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Script step</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_hub_step_instance_bc5926a5dbd493407b9b9ea3db96198b</sys_update_name>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-15 12:51:22</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bc5926a5dbd493407b9b9ea3db96198b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>bc5926a5dbd493407b9b9ea3db96198b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-15 12:51:22</sys_created_on>
+        <sys_id>fc5926a5dbd493407b9b9ea3db96199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-15 12:51:22</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  var gr = new GlideRecord('sc_task');
+  gr.addQuery('request_item',inputs.parent);
+  gr.query();
+  outputs.allClosed = 'true';
+  while(gr.next()){
+   if(gr.state != '3' &amp;&amp; gr.state!='4' &amp;&amp; gr.state != '7') {
+     outputs.allClosed = 'false';
+   }
+  }
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bc5926a5dbd493407b9b9ea3db96198b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Parent</field>
+        <id>bc5926a5dbd493407b9b9ea3db96198b</id>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-15 12:51:22</sys_created_on>
+        <sys_id>785926a5dbd493407b9b9ea3db96199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-15 12:51:22</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_bc5926a5dbd493407b9b9ea3db96198b</table>
+        <value>{{action.ah_task.request_item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>bc5926a5dbd493407b9b9ea3db96198b</id>
+        <sys_created_by>gautham_raj</sys_created_by>
+        <sys_created_on>2018-02-15 12:51:22</sys_created_on>
+        <sys_id>7c5926a5dbd493407b9b9ea3db96199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>gautham_raj</sys_updated_by>
+        <sys_updated_on>2018-02-15 12:51:22</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Request Approval Generator" max_length="40" name="x_infte_esm_main_s_request_approval_generator" type="collection">
+        <element label="Approval Group" max_length="32" name="approval_group" reference="sys_user_group" type="reference"/>
+        <element choice="1" label="Approval Level" max_length="40" name="approval_level" type="choice">
+            <choice>
+                <element label="First" sequence="10" value="First"/>
+                <element label="Second" sequence="20" value="Second"/>
+                <element label="Third" sequence="30" value="Third"/>
+            </choice>
+        </element>
+        <element choice="1" label="Approval Type" max_length="40" name="approval_type" type="choice">
+            <choice>
+                <element label="Group" sequence="10" value="Group"/>
+                <element label="Individual" sequence="20" value="Individual"/>
+            </choice>
+        </element>
+        <element label="Approver" max_length="32" name="approver" reference="sys_user" type="reference"/>
+        <element label="Catalog Item" max_length="32" name="catalog_item" reference="sc_cat_item" type="reference"/>
+        <index name="index">
+            <element name="approver"/>
+        </index>
+        <index name="index2">
+            <element name="catalog_item"/>
+        </index>
+        <index name="index3">
+            <element name="approval_group"/>
+        </index>
+    </element>
+</database>

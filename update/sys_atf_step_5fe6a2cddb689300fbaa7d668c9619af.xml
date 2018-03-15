@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Order item and confirm that ordering is successful</description>
+        <display_name>Order Catalog Item</display_name>
+        <inputs/>
+        <order>4</order>
+        <step_config display_value="Order Catalog Item">c930b4b2c310320076173b0ac3d3aeec</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>amit.kumar281</sys_created_by>
+        <sys_created_on>2018-02-26 09:39:42</sys_created_on>
+        <sys_id>5fe6a2cddb689300fbaa7d668c9619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order Catalog Item</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_atf_step_5fe6a2cddb689300fbaa7d668c9619af</sys_update_name>
+        <sys_updated_by>amit.kumar281</sys_updated_by>
+        <sys_updated_on>2018-02-26 09:39:42</sys_updated_on>
+        <table/>
+        <test display_value="Service Catalog">b3e8f94ddb2c5b407b9b9ea3db961985</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=5fe6a2cddb689300fbaa7d668c9619af"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5fe6a2cddb689300fbaa7d668c9619af</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>amit.kumar281</sys_created_by>
+        <sys_created_on>2018-02-26 09:39:42</sys_created_on>
+        <sys_id>ecf62e8ddb689300fbaa7d668c9619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>amit.kumar281</sys_updated_by>
+        <sys_updated_on>2018-02-26 09:39:42</sys_updated_on>
+        <value>form_submitted_to_server</value>
+        <variable display_value="">17513cb2c310320076173b0ac3d3ae64</variable>
+    </sys_variable_value>
+</record_update>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_both</availability>
+        <billable>false</billable>
+        <category/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <entitlement_script/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>ServiceNow Group Management</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>true</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=3feabce9db9093407b9b9ea3db9619ac&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <roles/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <short_description>Create a request for group creation/ modification/deactivation in ServiceNow application</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-15 04:49:31</sys_created_on>
+        <sys_id>3feabce9db9093407b9b9ea3db9619ac</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>ServiceNow Group Management</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sc_cat_item_3feabce9db9093407b9b9ea3db9619ac</sys_update_name>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-03-14 05:22:42</sys_updated_on>
+        <template/>
+        <type>item</type>
+        <u_order_guide_attached display_value="Group Management">7cddb0addb9093407b9b9ea3db961925</u_order_guide_attached>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=3feabce9db9093407b9b9ea3db9619ac"/>
+    <fx_price action="delete_multiple" query="id=3feabce9db9093407b9b9ea3db9619ac"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>3feabce9db9093407b9b9ea3db9619ac</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-15 04:49:31</sys_created_on>
+        <sys_id>5e0bbce9db9093407b9b9ea3db9619b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-15 04:49:31</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>3feabce9db9093407b9b9ea3db9619ac</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-15 04:49:31</sys_created_on>
+        <sys_id>960bbce9db9093407b9b9ea3db9619b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-15 04:49:31</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#f96457</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>picture</file_name>
+        <image_height>137</image_height>
+        <image_width>194</image_width>
+        <size_bytes>3911</size_bytes>
+        <size_compressed>3821</size_compressed>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-16 11:32:26</sys_created_on>
+        <sys_id>52d0ebb9db90d3407b9b9ea3db961947</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-16 11:32:26</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>3feabce9db9093407b9b9ea3db9619ac</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="52d0ebb9db90d3407b9b9ea3db961947">52d0ebb9db90d3407b9b9ea3db961947</sys_attachment>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-16 11:32:26</sys_created_on>
+        <sys_id>92d0ebb9db90d3407b9b9ea3db961947</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>5084</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="52d0ebb9db90d3407b9b9ea3db961947">52d0ebb9db90d3407b9b9ea3db961947</sys_attachment>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-16 11:32:26</sys_created_on>
+        <sys_id>16d0ebb9db90d3407b9b9ea3db961947</sys_id>
+    </sys_attachment_doc>
+</record_update>

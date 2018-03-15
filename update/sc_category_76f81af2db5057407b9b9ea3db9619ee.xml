@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_category">
+    <sc_category action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>End user peripherals such as mobile phone cases, dongles, and cables</description>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <show_in_cms>false</show_in_cms>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 08:53:01</sys_created_on>
+        <sys_id>76f81af2db5057407b9b9ea3db9619ee</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Peripherals</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sc_category_76f81af2db5057407b9b9ea3db9619ee</sys_update_name>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-21 11:53:32</sys_updated_on>
+        <title>Peripherals</title>
+    </sc_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=76f81af2db5057407b9b9ea3db9619ee"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#797979</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>homepage_image</file_name>
+        <image_height>54</image_height>
+        <image_width>54</image_width>
+        <size_bytes>1012</size_bytes>
+        <size_compressed>967</size_compressed>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 08:53:43</sys_created_on>
+        <sys_id>2e49daf2db5057407b9b9ea3db9619c3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-19 08:53:43</sys_updated_on>
+        <table_name>ZZ_YYsc_category</table_name>
+        <table_sys_id>76f81af2db5057407b9b9ea3db9619ee</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="homepage_image" sys_id="2e49daf2db5057407b9b9ea3db9619c3">2e49daf2db5057407b9b9ea3db9619c3</sys_attachment>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 08:53:43</sys_created_on>
+        <sys_id>6e49daf2db5057407b9b9ea3db9619c3</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSZiDMwczAwHhmzqpKIIexOMjdiWHdOZmXQA5LuqOvIwPDxn7uP4msQDmXAJ8QV6B4WlraxIkTCwsLe3t7V61a1d3dXV9fDxTp6Ohoa2ubPXv23Llzb9++XV1dvWjRounTp1dWVk6bNq2qqmrq1KkzZsyYBgZAZTNnziwvLweK19TUNDU1zZo1a86cOYsXLwaqB+qFkEApIAlUs3PnTiAbSAINrKiogMgCxSEkUBBiDkQL0LTm5ub58+cDrautrQWSQMPrwGDZsmVAkQULFkBMaGho6OvrA7oEqADopF27dgGNAnJXrlwJVAAxH2ggUAvQj0DFjY2NQMOB3gR6trOzExgCQO39/f0TJkwA2gI3B+gRYCDMmzcP6AagXQsXLgQGxdKlS4HBtW3btrUnep4Bw9GvJMgvmIGVnZOTk5uPj19YXMvIxsk/KjYuIyM7r7ikFALKyqqq2nt6+6es37Rly5btu/bsO3jwEAgcP3nq7IWLN2+/+QYBP3/9+h2eLHocaDJngUdkMQMD32EQZjyevyIFGH33PV0cQyz8315NDz7kIMD2IDRQQFsr4Xic4bUjfbzSHGzeOhriQiKn//9/FxvjoXc4oeSK5OnPT7/dne3dx7mzoTXetK1HR/rxJIPkHge3HxefcRzXWTeZ5aLEQ9NZizONOXgjgqLeTTnk8N5fv2V6lWvKu2PbdsjLHjvVyKkvJtK4h917V7vwrlZFHodJJezMEjmes8RYLrYzKkzalne1Mupud9LTE3eijA988uJ181u0klfB7NmxE5n8V5m/tBpEpnpM+6u37MdtLjsr99yJ0a6SxxOEFTNn1lcsWz/jd42p9mmGs9nFEpb32jgbFHKSnuw4nsSQ68vZI9M/a/l7Oc09bnsC5B1q863Vuh1jd6et5y1tXLuobmrMQ+WgDaFf7hbbeQqxuomIbzx68cTMos6tc5epPS1e87bu8J2HB/1KxF/Ln/u7Y+8/mYTQB5W1vzc+iQxxuqvi4M2+2iqKQe11z7PbNoV/3907r/X/71w58/6Pn7KK+X8uV1jd5P+zPWbtRZ3z21U8uQ+FWNhoB21OzJr3b/LZz/u3/Ovx8vi2qiBAaemVxsyvs6fzZu1a9nTdzfJrjxb9OKu7fuvuzZtXz36VeaRPWTD27L0Nc+ftfy0seLFj1r/4tK97T5vdKLb2Wxp0SqNMZuWasp0xoVNWM1nXsx7gTjm949Xj9HgjYPwzeLr6uaxzSmgCAN2TQzn0AwAA</data>
+        <length>1276</length>
+        <position>1</position>
+        <sys_attachment display_value="homepage_image" sys_id="2e49daf2db5057407b9b9ea3db9619c3">2e49daf2db5057407b9b9ea3db9619c3</sys_attachment>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 08:53:43</sys_created_on>
+        <sys_id>ee49daf2db5057407b9b9ea3db9619c3</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#797979</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>mobile_picture</file_name>
+        <image_height>54</image_height>
+        <image_width>54</image_width>
+        <size_bytes>1012</size_bytes>
+        <size_compressed>967</size_compressed>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 08:53:51</sys_created_on>
+        <sys_id>68599af2db5057407b9b9ea3db9619a7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-19 08:53:51</sys_updated_on>
+        <table_name>ZZ_YYsc_category</table_name>
+        <table_sys_id>76f81af2db5057407b9b9ea3db9619ee</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="mobile_picture" sys_id="68599af2db5057407b9b9ea3db9619a7">68599af2db5057407b9b9ea3db9619a7</sys_attachment>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 08:53:51</sys_created_on>
+        <sys_id>a8599af2db5057407b9b9ea3db9619a7</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSZiDMwczAwHhmzqpKIIexOMjdiWHdOZmXQA5LuqOvIwPDxn7uP4msQDmXAJ8QV6B4WlraxIkTCwsLe3t7V61a1d3dXV9fDxTp6Ohoa2ubPXv23Llzb9++XV1dvWjRounTp1dWVk6bNq2qqmrq1KkzZsyYBgZAZTNnziwvLweK19TUNDU1zZo1a86cOYsXLwaqB+qFkEApIAlUs3PnTiAbSAINrKiogMgCxSEkUBBiDkQL0LTm5ub58+cDrautrQWSQMPrwGDZsmVAkQULFkBMaGho6OvrA7oEqADopF27dgGNAnJXrlwJVAAxH2ggUAvQj0DFjY2NQMOB3gR6trOzExgCQO39/f0TJkwA2gI3B+gRYCDMmzcP6AagXQsXLgQGxdKlS4HBtW3btrUnep4Bw9GvJMgvmIGVnZOTk5uPj19YXMvIxsk/KjYuIyM7r7ikFALKyqqq2nt6+6es37Rly5btu/bsO3jwEAgcP3nq7IWLN2+/+QYBP3/9+h2eLHocaDJngUdkMQMD32EQZjyevyIFGH33PV0cQyz8315NDz7kIMD2IDRQQFsr4Xic4bUjfbzSHGzeOhriQiKn//9/FxvjoXc4oeSK5OnPT7/dne3dx7mzoTXetK1HR/rxJIPkHge3HxefcRzXWTeZ5aLEQ9NZizONOXgjgqLeTTnk8N5fv2V6lWvKu2PbdsjLHjvVyKkvJtK4h917V7vwrlZFHodJJezMEjmes8RYLrYzKkzalne1Mupud9LTE3eijA988uJ181u0klfB7NmxE5n8V5m/tBpEpnpM+6u37MdtLjsr99yJ0a6SxxOEFTNn1lcsWz/jd42p9mmGs9nFEpb32jgbFHKSnuw4nsSQ68vZI9M/a/l7Oc09bnsC5B1q863Vuh1jd6et5y1tXLuobmrMQ+WgDaFf7hbbeQqxuomIbzx68cTMos6tc5epPS1e87bu8J2HB/1KxF/Ln/u7Y+8/mYTQB5W1vzc+iQxxuqvi4M2+2iqKQe11z7PbNoV/3907r/X/71w58/6Pn7KK+X8uV1jd5P+zPWbtRZ3z21U8uQ+FWNhoB21OzJr3b/LZz/u3/Ovx8vi2qiBAaemVxsyvs6fzZu1a9nTdzfJrjxb9OKu7fuvuzZtXz36VeaRPWTD27L0Nc+ftfy0seLFj1r/4tK97T5vdKLb2Wxp0SqNMZuWasp0xoVNWM1nXsx7gTjm949Xj9HgjYPwzeLr6uaxzSmgCAN2TQzn0AwAA</data>
+        <length>1276</length>
+        <position>1</position>
+        <sys_attachment display_value="mobile_picture" sys_id="68599af2db5057407b9b9ea3db9619a7">68599af2db5057407b9b9ea3db9619a7</sys_attachment>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 08:53:51</sys_created_on>
+        <sys_id>2c599af2db5057407b9b9ea3db9619a7</sys_id>
+    </sys_attachment_doc>
+</record_update>

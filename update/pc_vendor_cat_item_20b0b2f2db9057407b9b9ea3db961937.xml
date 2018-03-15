@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="pc_vendor_cat_item">
+    <pc_vendor_cat_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description><![CDATA[<p style="box-sizing: border-box; margin: 0px 0px 9px; color: #343d47; font-family: SourceSansPro, &#39;Helvetica Neue&#39;, Arial; font-size: 13px;"><span style="box-sizing: border-box; font-size: 12pt;"><span style="box-sizing: border-box; color: gray;">Google Nexus 10 Black Wi-Fi 16GB Tablet, Model NEXUS10ASUS1B16</span></span></p>
+<p style="box-sizing: border-box; margin: 0px 0px 9px; color: #343d47; font-family: SourceSansPro, &#39;Helvetica Neue&#39;, Arial; font-size: 13px;"><span style="box-sizing: border-box; color: gray;">Key Features:</span></p>
+<ul style="box-sizing: border-box; padding: 0px; margin: 0px 0px 9px; color: #343d47; font-family: SourceSansPro, &#39;Helvetica Neue&#39;, Arial; font-size: 13px; list-style-position: inside;"><li style="box-sizing: border-box; font-size: 10pt;">The world&#39;s 1st Android 4.2 (Jelly Bean), upgradable to 5.1 (Lollipop) tablet</li><li style="box-sizing: border-box; font-size: 10pt;">Dual-core 1.7 GHz Cortex-A15 tablet delivers an advanced multimedia experience with up to 9.5* hours of battery life</li><li style="box-sizing: border-box; font-size: 10pt;">Best NFC experience on a tablet with a textured tactile design for enhanced comfort measuring just 10.45mm thin and 340g light</li><li style="box-sizing: border-box; font-size: 10pt;">Super PLS TFT capacitive touchscreen, 16M colors</li></ul>]]></description>
+        <features/>
+        <list_price>299.99</list_price>
+        <model display_value="Google Nexus 10">1d7da672db9057407b9b9ea3db961929</model>
+        <name>Google Nexus 10 (Google - GNEX10)</name>
+        <out_of_stock>false</out_of_stock>
+        <picture/>
+        <price>299.99</price>
+        <product_catalog_item display_value="Google Nexus 10">deedaa72db9057407b9b9ea3db9619c0</product_catalog_item>
+        <product_id>GNEX10</product_id>
+        <short_description/>
+        <specs/>
+        <sys_class_name>pc_vendor_cat_item</sys_class_name>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-19 10:37:00</sys_created_on>
+        <sys_id>20b0b2f2db9057407b9b9ea3db961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Google Nexus 10 (Google - GNEX10)</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>pc_vendor_cat_item_20b0b2f2db9057407b9b9ea3db961937</sys_update_name>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-19 10:37:00</sys_updated_on>
+        <upc/>
+        <vendor display_value="Google">7aadedb5c6112284002ad6a06f28549a</vendor>
+    </pc_vendor_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=20b0b2f2db9057407b9b9ea3db961937"/>
+</record_update>

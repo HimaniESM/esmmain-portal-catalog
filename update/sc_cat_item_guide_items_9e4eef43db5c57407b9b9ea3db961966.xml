@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_guide_items">
+    <sc_cat_item_guide_items action="INSERT_OR_UPDATE">
+        <condition>IO:a469eb8fdb1c57407b9b9ea3db961972=845a6247db9857407b9b9ea3db9619e0^EQ</condition>
+        <guide display_value="Request For Software">82e8a38fdb1c57407b9b9ea3db961944</guide>
+        <ignore_mandatory_eval>false</ignore_mandatory_eval>
+        <item display_value="Acrobat">845a6247db9857407b9b9ea3db9619e0</item>
+        <order>200</order>
+        <quantity>1</quantity>
+        <requested_by/>
+        <requested_for/>
+        <show_quantity>false</show_quantity>
+        <sys_class_name>sc_cat_item_guide_items</sys_class_name>
+        <sys_created_by>divya</sys_created_by>
+        <sys_created_on>2018-02-20 09:44:01</sys_created_on>
+        <sys_id>9e4eef43db5c57407b9b9ea3db961966</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>845a6247db9857407b9b9ea3db9619e0</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sc_cat_item_guide_items_9e4eef43db5c57407b9b9ea3db961966</sys_update_name>
+        <sys_updated_by>divya</sys_updated_by>
+        <sys_updated_on>2018-02-20 09:45:06</sys_updated_on>
+        <use_sc_layout>true</use_sc_layout>
+    </sc_cat_item_guide_items>
+</record_update>
