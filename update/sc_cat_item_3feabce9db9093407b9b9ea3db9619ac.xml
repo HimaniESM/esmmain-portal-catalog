@@ -50,23 +50,24 @@
         <sys_created_by>divya</sys_created_by>
         <sys_created_on>2018-02-15 04:49:31</sys_created_on>
         <sys_id>3feabce9db9093407b9b9ea3db9619ac</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>ServiceNow Group Management</sys_name>
         <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
         <sys_policy/>
         <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
         <sys_update_name>sc_cat_item_3feabce9db9093407b9b9ea3db9619ac</sys_update_name>
-        <sys_updated_by>divya</sys_updated_by>
-        <sys_updated_on>2018-03-14 05:22:42</sys_updated_on>
+        <sys_updated_by>Sushil Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-10 09:43:45</sys_updated_on>
         <template/>
         <type>item</type>
         <u_order_guide_attached display_value="Group Management">7cddb0addb9093407b9b9ea3db961925</u_order_guide_attached>
+        <u_schedule/>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
-        <workflow/>
+        <workflow display_value="ESM Group Creation">b29a03184f19db0053c240f18110c7e8</workflow>
     </sc_cat_item>
     <sys_translated_text action="delete_multiple" query="documentkey=3feabce9db9093407b9b9ea3db9619ac"/>
     <fx_price action="delete_multiple" query="id=3feabce9db9093407b9b9ea3db9619ac"/>

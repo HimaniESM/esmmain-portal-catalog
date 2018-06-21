@@ -65,6 +65,7 @@
         <template/>
         <type>item</type>
         <u_order_guide_attached/>
+        <u_schedule/>
         <upc/>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>

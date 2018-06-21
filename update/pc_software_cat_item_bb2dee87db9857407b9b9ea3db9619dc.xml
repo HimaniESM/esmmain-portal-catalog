@@ -66,9 +66,10 @@
         <template/>
         <type>item</type>
         <u_order_guide_attached display_value="Request For Software">82e8a38fdb1c57407b9b9ea3db961944</u_order_guide_attached>
+        <u_schedule/>
         <upc/>
         <use_sc_layout>true</use_sc_layout>
-        <vendor display_value="Adobe Systems">b7e8b5c4c0a80169008b49e468920048</vendor>
+        <vendor display_value="">b7e8b5c4c0a80169008b49e468920048</vendor>
         <vendor_catalog_item/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <role display_value="demand_manager" name="demand_manager">6bfa40118f52110040f82ab2f0f923ef</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-04-17 10:28:13</sys_created_on>
+        <sys_id>928110554fe9174053c240f18110c72c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6bfa40118f52110040f82ab2f0f923ef</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_embedded_help_role_928110554fe9174053c240f18110c72c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-04-17 10:28:13</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

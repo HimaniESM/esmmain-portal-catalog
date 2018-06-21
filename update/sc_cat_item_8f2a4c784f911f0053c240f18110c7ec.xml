@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Collaboration">bf4a40b84f911f0053c240f18110c748</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p>Request a new SharePoint Site.</p>]]></description>
+        <entitlement_script/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>SharePoint Request</name>
+        <no_cart>false</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=8f2a4c784f911f0053c240f18110c7ec&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <roles/>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <short_description>Communication and Collaboration - SharePoint Request</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-04-03 10:24:54</sys_created_on>
+        <sys_id>8f2a4c784f911f0053c240f18110c7ec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>SharePoint Request</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sc_cat_item_8f2a4c784f911f0053c240f18110c7ec</sys_update_name>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-04-03 10:24:54</sys_updated_on>
+        <template/>
+        <type>item</type>
+        <u_order_guide_attached/>
+        <u_schedule/>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=8f2a4c784f911f0053c240f18110c7ec"/>
+    <fx_price action="delete_multiple" query="id=8f2a4c784f911f0053c240f18110c7ec"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>8f2a4c784f911f0053c240f18110c7ec</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-04-03 10:24:54</sys_created_on>
+        <sys_id>e98a80b84f911f0053c240f18110c771</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-04-03 10:24:54</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>8f2a4c784f911f0053c240f18110c7ec</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-04-03 10:24:54</sys_created_on>
+        <sys_id>258a80b84f911f0053c240f18110c772</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-04-03 10:24:54</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#0</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>picture</file_name>
+        <image_height>100</image_height>
+        <image_width>100</image_width>
+        <size_bytes>1474</size_bytes>
+        <size_compressed>1497</size_compressed>
+        <sys_created_by>Sumanth_Ravilla</sys_created_by>
+        <sys_created_on>2018-04-20 13:41:13</sys_created_on>
+        <sys_id>037a101e6fa99740d69dc8c17c3ee4f3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>Sumanth_Ravilla</sys_updated_by>
+        <sys_updated_on>2018-04-20 13:41:13</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>8f2a4c784f911f0053c240f18110c7ec</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="037a101e6fa99740d69dc8c17c3ee4f3">037a101e6fa99740d69dc8c17c3ee4f3</sys_attachment>
+        <sys_created_by>Sumanth_Ravilla</sys_created_by>
+        <sys_created_on>2018-04-20 13:41:13</sys_created_on>
+        <sys_id>437a101e6fa99740d69dc8c17c3ee4f3</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AcIFPfqJUE5HDQoaCgAAAA1JSERSAAAAZAAAAGQIBgAAAHDilVQAAAAZdEVYdFNvZnR3YXJlAEFkb2JlIEltYWdlUmVhZHlxyWU8AAAFZElEQVR42uxdTY7aSBQuEPshN/BIo5GyGMW5gTlB08pipGzanCBwgqZPAJwAejPSLEbtPgHcoD2aRaRopPYN4qyzSN6DR1IU5R+6DV3G3ycVxnaVsd/n91O/KAUAAAAAAAAAAAAAAAAAAAAAAHDeaOk7795/7NJmSOmKkgfxHB0JpVtK03/+ep3uEEJk+LRZUupCTicHk9EjUuIWyHCLlI7sTCxkcIZY0hfIqzL8QsmXpMucv086oh2BUehGt2vAcUCyH9PmWjsUtOmjb+SLiIgxyDg+WM4sb/1Yx5LvtoFv6tp8kIBWBfk8iT7jvBdWolW+ZsqOuuDnb3WlaFsyxE0igtIjfX3goIa+f6bUtwmYEgc9jxL8cL5Jjhn6LPkeuJwQlIUdebctapQ0hAxPhOYZjnUu53TcWfzsUISvXzM0fIKScsscs5XkEtIghBlhflfO6cQFGde4KtjfwhezWIgmE1IW3hPP2YgGIQXNFnmVtDI+Nc4pd8jvgRAJN+MMwS00G89CnmZc46Zgf4tpWd/cWEJE0D0RfiqJv781Q1raH4mwt0Ll8JjbniIjXyzXjDRyb6R8KbTM2iIVbsFtnDzi+waT5ShAiGPolFSpJURVme/qPZuQnIoRAJMFk2WrNMUQXWn46oCe2KcQEhfZQWDP/5Y2+TBZ8CEACAEhAAgBIQAIASEACAEhAAgBQAgIAUAICAEqR+elfvj3v//31GYo5rYDhzu91p1fn/78LQUhpyGh1CxfyscDze6JmAVM1vHIGKvN/IprVTxImedozKnMI6U+CKlYKyg9CBG2vmU2T6uM4kzcHZWfgJBqyPBFK8y5EWySLim9IrPEqUeJh7D+Smmg9keKD+lac/iQ5/uLuaEV7LgHJHzrqBU6zkSw31hQ+aGhVSEd4zwDaMjTMDc0gwXdyyLDQg5PAeip3TkX4bn7lPaRtCNQu9OtV/xmHxrOCnkmKRPRPpisAl8RiHlh4V0YTvvyqddmUuj6bKbuNEcfquxJNI0jJNWICEuEsbPnVvSofES/tVI/B5x9OFdCDjVZiURBSqKeeQEZaYWC0xc08KSm33hCBjzdS8gIM+oTqeE7KmkGsdTag6abrAUvPSFmKjSIGOkCE6fOZuW+4vvVzZbXdEK2wr02yHgr9Qf9bV7l1L6BCkzWiGecSjSlv5kjk4wT4s05+pFShBAZU4n99aUj0hdujeV6Djc+Ls+JmEJC2B/wQ6vNCjdDoxnk1LAJPhBiwrMnRFpZD5pwcmTM1GYCf2Q5Nz8HUjo5lb4sIhJJJ9cQad/a3l9XAoyhQUrCQcW79x+5yd+vOyEjTTMCgyh+O6eudK/KfYzoXv+VCuoPUtSmGX+kctapqoPJSsh5L6QOYfoKDm3HLvZ1S2AxMmrxoSzXl9RZQ2ay/WBoxuAFQ9vSpoxIuFC7bV0LeaaLuhISiV3Wm81nZfsvHMCtRoi/DddVzRoh25q5SixOvE4PszLD9TqHvYn+Zm19R53GR7luVrNgLriZVw/BQsqngV+WkFp1k0o7Wx1fqCuTkEgTvu7A/Zr1XfcNE+Z0MCKLM4/N++7wOoF0IuUM/+3XvvtKWxDSYe3oGuF6JA/NTSmeY7eb9e8I68Cko9XQfW5yMPqueYRHVAPnbv7dxizjuMtYtzy0LG9bYDQ5rIfiuEqKpTuZu417oh3zGpHx8x92LA95Z9i2vW5aB4jg+7s2opR1D+Yf9195+1gD7UhU1n9QWWzyUu23lrqyeJnN/qbqgJGRrqJV4Cht/wrg6pt2WXcycgnRiAlVuTkdL6ry5zLrqvQq1mKzXerwWcnoFgAAAAAAAAAAAAAAAKAZ+C7AAEhfGC50lY4wAAAAAElFTkSuQmCCloJFdsIFAAA=</data>
+        <length>1984</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="037a101e6fa99740d69dc8c17c3ee4f3">037a101e6fa99740d69dc8c17c3ee4f3</sys_attachment>
+        <sys_created_by>Sumanth_Ravilla</sys_created_by>
+        <sys_created_on>2018-04-20 13:41:13</sys_created_on>
+        <sys_id>c37a101e6fa99740d69dc8c17c3ee4f3</sys_id>
+    </sys_attachment_doc>
+</record_update>

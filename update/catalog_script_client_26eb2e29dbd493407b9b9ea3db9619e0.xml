@@ -4,7 +4,7 @@
         <active>true</active>
         <applies_catalog>true</applies_catalog>
         <applies_extended>false</applies_extended>
-        <applies_req_item>false</applies_req_item>
+        <applies_req_item>true</applies_req_item>
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
@@ -15,22 +15,29 @@
         <field/>
         <global>true</global>
         <messages/>
-        <name>Modify group email Validation</name>
+        <name>Esm_OnChange_GrpEmialValidation</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
    if (isLoading || newValue == '') {
       return;
    }
-	if(isEmailValid(newValue))
-	{
-		return true;
-	}
+	validRegExp = /^[^@]+@[^@]+.[a-z]{2,}$/i;  
+  strEmail = g_form.getValue('new_group_email');  
+    // search email text for regular exp matches  
+      if (strEmail.search(validRegExp) == -1)  
+    {  	
+         alert('A valid e-mail address is required.');
+		g_form.clearValue('new_group_email');
+          
+      }  
+
 	else
 	{
-		alert("Enter valid Email Address.");
-		g_form.clearValue('new_group_email');
+		return true;
+		
+		
 	}
-   //Type appropriate comment here, and begin script below
+   
    
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
@@ -39,15 +46,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>26eb2e29dbd493407b9b9ea3db9619e0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Modify group email Validation</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Esm_OnChange_GrpEmialValidation</sys_name>
         <sys_overrides/>
         <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
         <sys_policy/>
         <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
         <sys_update_name>catalog_script_client_26eb2e29dbd493407b9b9ea3db9619e0</sys_update_name>
-        <sys_updated_by>divya</sys_updated_by>
-        <sys_updated_on>2018-02-15 13:04:27</sys_updated_on>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-23 06:20:55</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

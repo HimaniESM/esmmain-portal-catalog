@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <display_name>Open a Catalog Item</display_name>
+        <inputs/>
+        <inputs/>
+        <order>2</order>
+        <step_config display_value="Open a Catalog Item">2516c0e1c332220076173b0ac3d3ae39</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Kevin_Domadia</sys_created_by>
+        <sys_created_on>2018-03-30 11:16:48</sys_created_on>
+        <sys_id>fc00bf934fc95b0053c240f18110c722</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open a Catalog Item</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_atf_step_fc00bf934fc95b0053c240f18110c722</sys_update_name>
+        <sys_updated_by>Kevin_Domadia</sys_updated_by>
+        <sys_updated_on>2018-03-30 11:16:48</sys_updated_on>
+        <table/>
+        <test display_value="Service catalog test 1">b6472f5b4f895b0053c240f18110c78c</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=fc00bf934fc95b0053c240f18110c722"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>fc00bf934fc95b0053c240f18110c722</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Kevin_Domadia</sys_created_by>
+        <sys_created_on>2018-03-30 11:16:48</sys_created_on>
+        <sys_id>b6007f934fc95b0053c240f18110c7e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Kevin_Domadia</sys_updated_by>
+        <sys_updated_on>2018-03-30 11:16:48</sys_updated_on>
+        <value/>
+        <variable display_value="">b0d64ce1c332220076173b0ac3d3ae95</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fc00bf934fc95b0053c240f18110c722"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>catalog_item</field>
+        <id>fc00bf934fc95b0053c240f18110c722</id>
+        <sys_created_by>Kevin_Domadia</sys_created_by>
+        <sys_created_on>2018-03-30 11:16:48</sys_created_on>
+        <sys_id>36007f934fc95b0053c240f18110c7e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Kevin_Domadia</sys_updated_by>
+        <sys_updated_on>2018-03-30 11:16:48</sys_updated_on>
+        <table>var__m_atf_input_variable_2516c0e1c332220076173b0ac3d3ae39</table>
+        <value>{{step['b0672f5b4f895b0053c240f18110c797'].catalog_item_id}}</value>
+    </sys_element_mapping>
+</record_update>

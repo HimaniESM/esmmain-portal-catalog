@@ -15,7 +15,7 @@
         <field/>
         <global>true</global>
         <messages/>
-        <name>Show active users only</name>
+        <name>Esm_OnChange_ShowActUserOnly</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
 	if(g_form.getValue('request_type') == 'Create a group')
@@ -23,14 +23,9 @@
 		var collectorName = 'create_group_members';
 		var filterString = 'active=true';
 		
-		//Find the filter elements
-		//var fil = gel('ep');
-		//Hide the filter elements by un-commenting the following lines
-		/*fil.rows[0].style.display = 'none';
-		fil.rows[1].style.display = 'none';
-		fil.nextSibling.rows[0].style.display = 'none'; //Filter description text*/
 		
-		//Reset the filter query
+		
+	
 		window[collectorName + 'g_filter'].reset();
 		window[collectorName + 'g_filter'].setQuery(filterString);
 		window[collectorName + 'acRequest'](null);
@@ -42,15 +37,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0b4ba229dbd493407b9b9ea3db9619b0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Show active users only</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Esm_OnChange_ShowActUserOnly</sys_name>
         <sys_overrides/>
         <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
         <sys_policy/>
         <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
         <sys_update_name>catalog_script_client_0b4ba229dbd493407b9b9ea3db9619b0</sys_update_name>
-        <sys_updated_by>divya</sys_updated_by>
-        <sys_updated_on>2018-02-15 13:27:57</sys_updated_on>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-23 06:28:10</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

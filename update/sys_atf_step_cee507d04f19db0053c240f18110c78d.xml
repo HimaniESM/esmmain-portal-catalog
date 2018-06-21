@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Add item to cart and confirm addition of item to cart</description>
+        <display_name>Add Item to Shopping Cart</display_name>
+        <inputs/>
+        <order>7</order>
+        <step_config display_value="Add Item to Shopping Cart">550270f2c310320076173b0ac3d3aeec</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-02 10:46:38</sys_created_on>
+        <sys_id>cee507d04f19db0053c240f18110c78d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Item to Shopping Cart</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_atf_step_cee507d04f19db0053c240f18110c78d</sys_update_name>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-02 10:46:38</sys_updated_on>
+        <table/>
+        <test display_value="test_application-Service Catalog">82e507d04f19db0053c240f18110c766</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=cee507d04f19db0053c240f18110c78d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>cee507d04f19db0053c240f18110c78d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-02 10:46:38</sys_created_on>
+        <sys_id>cae507d04f19db0053c240f18110c78e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-02 10:46:38</sys_updated_on>
+        <value>form_submitted_to_server</value>
+        <variable display_value="">939234f2c310320076173b0ac3d3ae14</variable>
+    </sys_variable_value>
+</record_update>

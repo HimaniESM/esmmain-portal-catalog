@@ -6,7 +6,7 @@
         <allow_add_info>true</allow_add_info>
         <allow_not_applicable>false</allow_not_applicable>
         <auto_gen>false</auto_gen>
-        <category display_value="ESM Service Request Satisfaction Survey">7023e4c2dbb0d3003b0936cb7c9619ee</category>
+        <category display_value="">7023e4c2dbb0d3003b0936cb7c9619ee</category>
         <cond_question>always</cond_question>
         <correct_answer/>
         <correct_answer_checkbox>1</correct_answer_checkbox>
@@ -27,7 +27,7 @@
         <max>1</max>
         <max_weight/>
         <method>assessment</method>
-        <metric_type display_value="ESM Service Request Satisfaction Survey">02c264c2dbb0d3003b0936cb7c961903</metric_type>
+        <metric_type display_value="">02c264c2dbb0d3003b0936cb7c961903</metric_type>
         <min>0</min>
         <name>Was your service catalog request completed within the expected time frame?</name>
         <order>300</order>

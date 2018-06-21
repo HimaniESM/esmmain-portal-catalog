@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_ic_aprvl_defn_staging">
+    <sc_ic_aprvl_defn_staging action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <detail>Problem Management</detail>
+        <group display_value="Problem Management" name="Problem Management">e592e0d74f74530053c240f18110c7e6</group>
+        <order>100</order>
+        <sc_ic_aprvl_type_defn_staging/>
+        <sc_ic_item_staging display_value="">089b36ac4fdddb0053c240f18110c789</sc_ic_item_staging>
+        <sys_class_name>sc_ic_aprvl_defn_staging</sys_class_name>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-04-06 10:11:23</sys_created_on>
+        <sys_id>061427ed4fdd5f0053c240f18110c7b1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>group</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sc_ic_aprvl_defn_staging_061427ed4fdd5f0053c240f18110c7b1</sys_update_name>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-04-06 10:26:10</sys_updated_on>
+        <type>group</type>
+        <user/>
+    </sc_ic_aprvl_defn_staging>
+</record_update>

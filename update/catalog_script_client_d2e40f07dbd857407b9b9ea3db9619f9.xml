@@ -15,14 +15,13 @@
         <field/>
         <global>true</global>
         <messages/>
-        <name>To Auto populate Manager</name>
+        <name>Esm_OnChange_AutoPopMgeField</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
    if (isLoading || newValue == '') {
       return;
    }
 
-   //Type appropriate comment here, and begin script below
 	if(newValue != '')  
   {  
 var user = g_form.getReference('requested_for', setManager);  
@@ -38,15 +37,15 @@ var user = g_form.getReference('requested_for', setManager);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d2e40f07dbd857407b9b9ea3db9619f9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>To Auto populate Manager</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Esm_OnChange_AutoPopMgeField</sys_name>
         <sys_overrides/>
         <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
         <sys_policy/>
         <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
         <sys_update_name>catalog_script_client_d2e40f07dbd857407b9b9ea3db9619f9</sys_update_name>
-        <sys_updated_by>divya</sys_updated_by>
-        <sys_updated_on>2018-02-20 06:45:26</sys_updated_on>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-23 06:29:51</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

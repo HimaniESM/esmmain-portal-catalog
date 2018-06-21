@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Validate that the answer match the following condition:
+Requested For = Amit Kumar
+With a failure timeout of 10 Seconds</description>
+        <display_name>Validate Variable Values</display_name>
+        <inputs/>
+        <order>5</order>
+        <step_config display_value="Validate Variable Values">5a36c681c37e220076173b0ac3d3aecf</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Kevin_Domadia</sys_created_by>
+        <sys_created_on>2018-03-30 11:54:48</sys_created_on>
+        <sys_id>3698b7d74fc95b0053c240f18110c702</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Variable Values</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_atf_step_3698b7d74fc95b0053c240f18110c702</sys_update_name>
+        <sys_updated_by>Kevin_Domadia</sys_updated_by>
+        <sys_updated_on>2018-03-30 11:54:48</sys_updated_on>
+        <table/>
+        <test display_value="Service catalog test 1">b6472f5b4f895b0053c240f18110c78c</test>
+        <timeout>1970-01-01 00:00:10</timeout>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=3698b7d74fc95b0053c240f18110c702"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3698b7d74fc95b0053c240f18110c702</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Kevin_Domadia</sys_created_by>
+        <sys_created_on>2018-03-30 11:54:48</sys_created_on>
+        <sys_id>1fb8f7d74fc95b0053c240f18110c75f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Kevin_Domadia</sys_updated_by>
+        <sys_updated_on>2018-03-30 11:54:48</sys_updated_on>
+        <value>11feafe66f8dd700d69dc8c17c3ee46a</value>
+        <variable display_value="">b46842c1c37e220076173b0ac3d3aebc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>3698b7d74fc95b0053c240f18110c702</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Kevin_Domadia</sys_created_by>
+        <sys_created_on>2018-03-30 11:54:48</sys_created_on>
+        <sys_id>dfb8f7d74fc95b0053c240f18110c75f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Kevin_Domadia</sys_updated_by>
+        <sys_updated_on>2018-03-30 11:54:48</sys_updated_on>
+        <value>IO:9cf1b36a6f8dd700d69dc8c17c3ee4ec=27120eaa6fb01300d69dc8c17c3ee4e6^EQ</value>
+        <variable display_value="">8a682649c37e220076173b0ac3d3ae47</variable>
+    </sys_variable_value>
+</record_update>

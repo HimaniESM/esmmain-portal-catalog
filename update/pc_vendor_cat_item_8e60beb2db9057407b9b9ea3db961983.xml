@@ -7,8 +7,8 @@
 <ul style="box-sizing: border-box; padding: 0px; margin: 0px 0px 9px; color: #343d47; font-family: SourceSansPro, &#39;Helvetica Neue&#39;, Arial; font-size: 13px; list-style-position: inside;"><li style="box-sizing: border-box; font-size: 10pt;">The world&#39;s 1st Android 4.2 (Jelly Bean), upgradable to 5.1 (Lollipop) tablet</li><li style="box-sizing: border-box; font-size: 10pt;">Dual-core 1.7 GHz Cortex-A15 tablet delivers an advanced multimedia experience with up to 9.5* hours of battery life</li><li style="box-sizing: border-box; font-size: 10pt;">Best NFC experience on a tablet with a textured tactile design for enhanced comfort measuring just 10.45mm thin and 340g light</li><li style="box-sizing: border-box; font-size: 10pt;">Super PLS TFT capacitive touchscreen, 16M colors</li></ul>]]></description>
         <features/>
         <list_price>299.99</list_price>
-        <model display_value="Google Nexus 10">1d7da672db9057407b9b9ea3db961929</model>
-        <name>Google Nexus 10 (Amazon - GNEX10)</name>
+        <model display_value="">1d7da672db9057407b9b9ea3db961929</model>
+        <name> ( - GNEX10)</name>
         <out_of_stock>false</out_of_stock>
         <picture/>
         <price>299.99</price>
@@ -29,7 +29,7 @@
         <sys_updated_by>divya</sys_updated_by>
         <sys_updated_on>2018-02-19 10:35:35</sys_updated_on>
         <upc/>
-        <vendor display_value="Amazon">adb3d8ce37413000158bbfc8bcbe5d15</vendor>
+        <vendor display_value="">adb3d8ce37413000158bbfc8bcbe5d15</vendor>
     </pc_vendor_cat_item>
     <sys_translated_text action="delete_multiple" query="documentkey=8e60beb2db9057407b9b9ea3db961983"/>
 </record_update>

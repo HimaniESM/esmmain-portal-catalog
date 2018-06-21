@@ -27,7 +27,7 @@
         <mobile_hide_price>false</mobile_hide_price>
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
-        <model display_value="Google Nexus 10">1d7da672db9057407b9b9ea3db961929</model>
+        <model display_value="">1d7da672db9057407b9b9ea3db961929</model>
         <name>Google Nexus 10</name>
         <no_cart>false</no_cart>
         <no_order>false</no_order>
@@ -67,9 +67,10 @@
         <template/>
         <type>item</type>
         <u_order_guide_attached/>
+        <u_schedule/>
         <upc/>
         <use_sc_layout>true</use_sc_layout>
-        <vendor display_value="Google">7aadedb5c6112284002ad6a06f28549a</vendor>
+        <vendor display_value="">7aadedb5c6112284002ad6a06f28549a</vendor>
         <vendor_catalog_item/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Create a request to revoke access from SAP Application&#13;
+&#13;
+</description>
+        <name>Revoke Access from SAP -Service Catalog  </name>
+        <remember/>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-02 11:29:55</sys_created_on>
+        <sys_id>0cdf8bd84f19db0053c240f18110c78b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Revoke Access from SAP -Service Catalog  </sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_atf_test_0cdf8bd84f19db0053c240f18110c78b</sys_update_name>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-02 11:30:22</sys_updated_on>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=0cdf8bd84f19db0053c240f18110c78b"/>
+</record_update>

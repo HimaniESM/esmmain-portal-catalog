@@ -20,8 +20,6 @@
         <query/>
         <report/>
         <roles>x_infte_esm_main_s.task_creator_user</roles>
-        <survey/>
-        <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>gautham_raj</sys_created_by>
         <sys_created_on>2018-02-18 13:37:14</sys_created_on>

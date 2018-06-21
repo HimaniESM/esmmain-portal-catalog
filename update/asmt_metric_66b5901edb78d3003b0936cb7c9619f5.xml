@@ -6,7 +6,7 @@
         <allow_add_info>false</allow_add_info>
         <allow_not_applicable>false</allow_not_applicable>
         <auto_gen>false</auto_gen>
-        <category display_value="ESM Incident Survey">86ef400adb70d3003b0936cb7c961989</category>
+        <category display_value="">86ef400adb70d3003b0936cb7c961989</category>
         <cond_question>always</cond_question>
         <correct_answer/>
         <correct_answer_checkbox>1</correct_answer_checkbox>
@@ -27,7 +27,7 @@
         <max>5</max>
         <max_weight/>
         <method>assessment</method>
-        <metric_type display_value="ESM Incident Survey">f09f8cc6db70d3003b0936cb7c9619cf</metric_type>
+        <metric_type display_value="">f09f8cc6db70d3003b0936cb7c9619cf</metric_type>
         <min>1</min>
         <name>rate_the_time</name>
         <order>100</order>

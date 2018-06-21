@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Impersonate the user: ESM ESS USER with user Id: ESM ESS USER</description>
+        <display_name>Impersonate</display_name>
+        <inputs/>
+        <order>1</order>
+        <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Manjeet_kumar</sys_created_by>
+        <sys_created_on>2018-04-02 09:00:43</sys_created_on>
+        <sys_id>e6adead86f91db00d69dc8c17c3ee440</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Impersonate</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_atf_step_e6adead86f91db00d69dc8c17c3ee440</sys_update_name>
+        <sys_updated_by>Manjeet_kumar</sys_updated_by>
+        <sys_updated_on>2018-04-02 09:00:43</sys_updated_on>
+        <table/>
+        <test display_value="Conference Room-service catalog">66adead86f91db00d69dc8c17c3ee43d</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=e6adead86f91db00d69dc8c17c3ee440"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>e6adead86f91db00d69dc8c17c3ee440</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manjeet_kumar</sys_created_by>
+        <sys_created_on>2018-04-02 09:00:43</sys_created_on>
+        <sys_id>2aadead86f91db00d69dc8c17c3ee441</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manjeet_kumar</sys_updated_by>
+        <sys_updated_on>2018-04-02 09:00:43</sys_updated_on>
+        <value>0625f1946f11db00d69dc8c17c3ee496</value>
+        <variable display_value="">586e2c4253e0220002c6435723dc3415</variable>
+    </sys_variable_value>
+</record_update>

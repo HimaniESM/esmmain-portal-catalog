@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Answer the questions on the form as follows:
+Requested For = Amit Kumar
+and Request Description = test
+and Request For = Led display
+and Conference date = 2018-03-29 17:00:00
+and Location = 13308 Midland Road, Poway,CA</description>
+        <display_name>Set Variable Values</display_name>
+        <inputs/>
+        <order>3</order>
+        <step_config display_value="Set Variable Values">323ca6e1c3b2220076173b0ac3d3aec1</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Kevin_Domadia</sys_created_by>
+        <sys_created_on>2018-03-30 11:52:03</sys_created_on>
+        <sys_id>d1973f974fc95b0053c240f18110c717</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Variable Values</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_atf_step_d1973f974fc95b0053c240f18110c717</sys_update_name>
+        <sys_updated_by>Kevin_Domadia</sys_updated_by>
+        <sys_updated_on>2018-03-30 11:52:03</sys_updated_on>
+        <table/>
+        <test display_value="Service catalog test 1">b6472f5b4f895b0053c240f18110c78c</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=d1973f974fc95b0053c240f18110c717"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d1973f974fc95b0053c240f18110c717</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Kevin_Domadia</sys_created_by>
+        <sys_created_on>2018-03-30 11:52:03</sys_created_on>
+        <sys_id>0318ff974fc95b0053c240f18110c73e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Kevin_Domadia</sys_updated_by>
+        <sys_updated_on>2018-03-30 11:52:03</sys_updated_on>
+        <value>11feafe66f8dd700d69dc8c17c3ee46a</value>
+        <variable display_value="">571e6a25c3b2220076173b0ac3d3ae46</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d1973f974fc95b0053c240f18110c717</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Kevin_Domadia</sys_created_by>
+        <sys_created_on>2018-03-30 11:52:03</sys_created_on>
+        <sys_id>0f18ff974fc95b0053c240f18110c73d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Kevin_Domadia</sys_updated_by>
+        <sys_updated_on>2018-03-30 11:52:03</sys_updated_on>
+        <value>IO:9cf1b36a6f8dd700d69dc8c17c3ee4ec=27120eaa6fb01300d69dc8c17c3ee4e6^IO:7de6f32e6f8dd700d69dc8c17c3ee4a6=test^IO:25607b2a6f8dd700d69dc8c17c3ee4c1=2^IO:abffe72a6f8dd700d69dc8c17c3ee4fe=2018-03-30 00:00:00^IO:da337b6a6f8dd700d69dc8c17c3ee4da=f90ad9120a0a0b91005146ebac892a09^EQ</value>
+        <variable display_value="">346eea25c3b2220076173b0ac3d3ae8b</variable>
+    </sys_variable_value>
+</record_update>

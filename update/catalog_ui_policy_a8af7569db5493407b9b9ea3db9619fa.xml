@@ -4,10 +4,10 @@
         <active>true</active>
         <applies_catalog>true</applies_catalog>
         <applies_req_item>true</applies_req_item>
-        <applies_sc_task>false</applies_sc_task>
+        <applies_sc_task>true</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <catalog_conditions>IO:2946b9addb1493407b9b9ea3db9619ecINGroup Manager,Group Email,Add Members,Remove Members^IO:42f1f9a9db1493407b9b9ea3db96195b=Modify group configuration^EQ</catalog_conditions>
+        <catalog_conditions>IO:2946b9addb1493407b9b9ea3db9619ecINGroup Manager,Group Email,Add Members,Remove Members,group_members^IO:42f1f9a9db1493407b9b9ea3db96195b=Modify group configuration^EQ</catalog_conditions>
         <catalog_item display_value="ServiceNow Group Management">3feabce9db9093407b9b9ea3db9619ac</catalog_item>
         <conditions/>
         <description/>
@@ -33,15 +33,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a8af7569db5493407b9b9ea3db9619fa</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Hide/Display Group name</sys_name>
         <sys_overrides/>
         <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
         <sys_policy/>
         <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
         <sys_update_name>catalog_ui_policy_a8af7569db5493407b9b9ea3db9619fa</sys_update_name>
-        <sys_updated_by>divya</sys_updated_by>
-        <sys_updated_on>2018-02-15 13:37:56</sys_updated_on>
+        <sys_updated_by>Sushil Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-10 10:10:10</sys_updated_on>
         <table/>
         <ui_type>0</ui_type>
         <variable_set/>

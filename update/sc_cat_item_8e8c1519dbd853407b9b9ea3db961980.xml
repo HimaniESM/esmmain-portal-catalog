@@ -61,6 +61,7 @@
         <template/>
         <type>item</type>
         <u_order_guide_attached display_value="Request/Modify Access">acf69a59db5c53407b9b9ea3db9619a5</u_order_guide_attached>
+        <u_schedule/>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
         <visible_bundle>true</visible_bundle>

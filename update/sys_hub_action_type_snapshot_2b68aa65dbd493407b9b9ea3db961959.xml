@@ -24,6 +24,7 @@
         <sys_updated_on>2018-02-15 12:47:29</sys_updated_on>
         <system_level>false</system_level>
     </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=2b68aa65dbd493407b9b9ea3db961959"/>
     <sys_variable_value action="delete_multiple" query="document_key=2b68aa65dbd493407b9b9ea3db961959"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_action_type_snapshot</document>

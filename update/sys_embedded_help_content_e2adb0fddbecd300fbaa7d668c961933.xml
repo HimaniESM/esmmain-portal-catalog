@@ -41,7 +41,7 @@
   </div> 
  </div>
 </div>]]></content>
-        <last_sync>2018-03-15 09:56:04</last_sync>
+        <last_sync>2018-06-09 14:00:07</last_sync>
         <modifier>normal</modifier>
         <name>sys_embedded_help_content-normal</name>
         <page>sys_embedded_help_content</page>
@@ -56,14 +56,14 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e2adb0fddbecd300fbaa7d668c961933</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>sys_embedded_help_content-normal</sys_name>
         <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
         <sys_policy/>
         <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
         <sys_update_name>sys_embedded_help_content_e2adb0fddbecd300fbaa7d668c961933</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-03-15 09:56:04</sys_updated_on>
+        <sys_updated_on>2018-06-09 14:00:07</sys_updated_on>
         <version>k</version>
     </sys_embedded_help_content>
     <sys_translated_text action="delete_multiple" query="documentkey=e2adb0fddbecd300fbaa7d668c961933"/>

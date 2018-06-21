@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>200</order>
+        <question display_value="Hire Type">8b90e7906f55db00d69dc8c17c3ee4c4</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>Divya_M</sys_created_by>
+        <sys_created_on>2018-04-02 12:44:35</sys_created_on>
+        <sys_id>b5e0eb906f55db00d69dc8c17c3ee47e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rehire</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>question_choice_b5e0eb906f55db00d69dc8c17c3ee47e</sys_update_name>
+        <sys_updated_by>Divya_M</sys_updated_by>
+        <sys_updated_on>2018-04-02 12:44:35</sys_updated_on>
+        <text>Rehire</text>
+        <value>Rehire</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=b5e0eb906f55db00d69dc8c17c3ee47e"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>b5e0eb906f55db00d69dc8c17c3ee47e</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>Divya_M</sys_created_by>
+        <sys_created_on>2018-04-02 12:44:35</sys_created_on>
+        <sys_id>39e0eb906f55db00d69dc8c17c3ee47f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Divya_M</sys_updated_by>
+        <sys_updated_on>2018-04-02 12:44:35</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>b5e0eb906f55db00d69dc8c17c3ee47e</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>Divya_M</sys_created_by>
+        <sys_created_on>2018-04-02 12:44:35</sys_created_on>
+        <sys_id>fde0eb906f55db00d69dc8c17c3ee47e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Divya_M</sys_updated_by>
+        <sys_updated_on>2018-04-02 12:44:35</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

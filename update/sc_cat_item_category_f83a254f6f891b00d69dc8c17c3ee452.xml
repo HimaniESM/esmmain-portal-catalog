@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Water dispensers">6c0aed0f6f891b00d69dc8c17c3ee4b5</sc_cat_item>
+        <sc_category display_value="Repair and Maintenance ">da6dcd4b6f491b00d69dc8c17c3ee4bf</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-03-29 06:53:33</sys_created_on>
+        <sys_id>f83a254f6f891b00d69dc8c17c3ee452</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Repair and Maintenance .Water dispensers</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sc_cat_item_category_f83a254f6f891b00d69dc8c17c3ee452</sys_update_name>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-03-29 06:53:33</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

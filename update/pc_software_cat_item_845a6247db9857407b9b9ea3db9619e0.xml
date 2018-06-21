@@ -11,9 +11,7 @@
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p style="box-sizing: border-box; margin: 0px 0px 9px; color: #343d47; font-family: SourceSansPro, &#39;Helvetica Neue&#39;, Arial; font-size: 13px;"><span style="box-sizing: border-box; font-size: 12pt;"><span style="box-sizing: border-box; color: gray;">Adobe Acrobat allows you to view, create, manipulate and print files in the Portable Document Format (PDF).</span></span></p>
-<p style="box-sizing: border-box; margin: 0px 0px 9px; color: #343d47; font-family: SourceSansPro, &#39;Helvetica Neue&#39;, Arial; font-size: 13px;"><span style="box-sizing: border-box; color: gray;">Features include:</span></p>
-<ul style="box-sizing: border-box; padding: 0px; margin: 0px 0px 9px; color: #343d47; font-family: SourceSansPro, &#39;Helvetica Neue&#39;, Arial; font-size: 13px; list-style-position: inside;"><li style="box-sizing: border-box; font-size: 10pt;">Convert PDFs to other formats</li><li style="box-sizing: border-box; font-size: 10pt;">Edit PDF documents</li><li style="box-sizing: border-box; font-size: 10pt;">Create and analyze forms</li><li style="box-sizing: border-box; font-size: 10pt;">Create PDF files</li><li style="box-sizing: border-box; font-size: 10pt;">Merge and combine files</li><li style="box-sizing: border-box; font-size: 10pt;">Prepare files consistently</li><li style="box-sizing: border-box; font-size: 10pt;">Work with new cloud services</li></ul>]]></description>
+        <description><![CDATA[<p style="box-sizing: border-box; margin: 0px 0px 9px; color: #343d47; font-family: SourceSansPro, &#39;Helvetica Neue&#39;, Arial; font-size: 13px;"><span style="box-sizing: border-box; font-size: 12pt;"><span style="box-sizing: border-box; color: gray;">Adobe Acrobat allows you to view, create, manipulate and print files in the Portable Document Format (PDF).</span></span></p><p style="box-sizing: border-box; margin: 0px 0px 9px; color: #343d47; font-family: SourceSansPro, &#39;Helvetica Neue&#39;, Arial; font-size: 13px;"><span style="box-sizing: border-box; color: gray;">Features include:</span></p><ul style="box-sizing: border-box; padding: 0px; margin: 0px 0px 9px; color: #343d47; font-family: SourceSansPro, &#39;Helvetica Neue&#39;, Arial; font-size: 13px; list-style-position: inside;"><li style="box-sizing: border-box; font-size: 10pt;">Convert PDFs to other formats</li><li style="box-sizing: border-box; font-size: 10pt;">Edit PDF documents</li><li style="box-sizing: border-box; font-size: 10pt;">Create and analyze forms</li><li style="box-sizing: border-box; font-size: 10pt;">Create PDF files</li><li style="box-sizing: border-box; font-size: 10pt;">Merge and combine files</li><li style="box-sizing: border-box; font-size: 10pt;">Prepare files consistently</li><li style="box-sizing: border-box; font-size: 10pt;">Work with new cloud services</li></ul>]]></description>
         <entitlement_script/>
         <features/>
         <group/>
@@ -56,20 +54,21 @@
         <sys_created_by>divya</sys_created_by>
         <sys_created_on>2018-02-20 04:48:28</sys_created_on>
         <sys_id>845a6247db9857407b9b9ea3db9619e0</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Acrobat</sys_name>
         <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
         <sys_policy/>
         <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
         <sys_update_name>pc_software_cat_item_845a6247db9857407b9b9ea3db9619e0</sys_update_name>
-        <sys_updated_by>divya</sys_updated_by>
-        <sys_updated_on>2018-03-14 05:13:12</sys_updated_on>
+        <sys_updated_by>Divya_M</sys_updated_by>
+        <sys_updated_on>2018-04-10 08:49:06</sys_updated_on>
         <template/>
         <type>item</type>
         <u_order_guide_attached display_value="Request For Software">82e8a38fdb1c57407b9b9ea3db961944</u_order_guide_attached>
+        <u_schedule/>
         <upc/>
         <use_sc_layout>true</use_sc_layout>
-        <vendor display_value="Adobe Systems">b7e8b5c4c0a80169008b49e468920048</vendor>
+        <vendor display_value="">b7e8b5c4c0a80169008b49e468920048</vendor>
         <vendor_catalog_item/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

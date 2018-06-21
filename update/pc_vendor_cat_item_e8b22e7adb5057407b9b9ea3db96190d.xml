@@ -7,7 +7,7 @@
         <features/>
         <list_price>444.99</list_price>
         <model display_value="Brother Network-Ready Color Laser Printer">f8fdc4df0a0a0b91009008b52d01b55d</model>
-        <name>Brother Network-Ready Color Laser Printer (Amazon - HL-4150CDN)</name>
+        <name>Brother Network-Ready Color Laser Printer ( - HL-4150CDN)</name>
         <out_of_stock>false</out_of_stock>
         <picture/>
         <price>399.5</price>
@@ -28,7 +28,7 @@
         <sys_updated_by>divya</sys_updated_by>
         <sys_updated_on>2018-02-19 09:35:53</sys_updated_on>
         <upc/>
-        <vendor display_value="Amazon">adb3d8ce37413000158bbfc8bcbe5d15</vendor>
+        <vendor display_value="">adb3d8ce37413000158bbfc8bcbe5d15</vendor>
     </pc_vendor_cat_item>
     <sys_translated_text action="delete_multiple" query="documentkey=e8b22e7adb5057407b9b9ea3db96190d"/>
 </record_update>

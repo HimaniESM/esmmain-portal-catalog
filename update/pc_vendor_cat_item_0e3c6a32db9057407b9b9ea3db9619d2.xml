@@ -7,8 +7,8 @@
 <ul style="box-sizing: border-box; padding: 0px; margin: 0px 0px 9px; color: #343d47; font-family: SourceSansPro, &#39;Helvetica Neue&#39;, Arial; font-size: 13px; list-style-position: inside;"><li style="box-sizing: border-box; font-size: 10pt;">Retina display (2048x1536 resolution)</li><li style="box-sizing: border-box; font-size: 10pt;">32GB storage</li><li style="box-sizing: border-box; font-size: 10pt;">Wi-Fi enabled</li><li style="box-sizing: border-box; font-size: 10pt;">Built-in speaker, microphone and camera</li><li style="box-sizing: border-box; font-size: 10pt;">Up to 10 hours battery life</li></ul>]]></description>
         <features/>
         <list_price>555.55</list_price>
-        <model display_value="Apple iPad 5">fec962fedb5057407b9b9ea3db9619f3</model>
-        <name>Apple iPad 5 (Amazon - AIPAD5G)</name>
+        <model display_value="">fec962fedb5057407b9b9ea3db9619f3</model>
+        <name> ( - AIPAD5G)</name>
         <out_of_stock>false</out_of_stock>
         <picture/>
         <price>499.99</price>
@@ -29,7 +29,7 @@
         <sys_updated_by>divya</sys_updated_by>
         <sys_updated_on>2018-02-19 10:18:22</sys_updated_on>
         <upc/>
-        <vendor display_value="Amazon">adb3d8ce37413000158bbfc8bcbe5d15</vendor>
+        <vendor display_value="">adb3d8ce37413000158bbfc8bcbe5d15</vendor>
     </pc_vendor_cat_item>
     <sys_translated_text action="delete_multiple" query="documentkey=0e3c6a32db9057407b9b9ea3db9619d2"/>
 </record_update>

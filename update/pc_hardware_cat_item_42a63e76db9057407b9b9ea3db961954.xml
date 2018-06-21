@@ -55,17 +55,18 @@
         <sys_created_by>divya</sys_created_by>
         <sys_created_on>2018-02-19 11:04:18</sys_created_on>
         <sys_id>42a63e76db9057407b9b9ea3db961954</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Logitech Wireless Mouse</sys_name>
         <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
         <sys_policy/>
         <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
         <sys_update_name>pc_hardware_cat_item_42a63e76db9057407b9b9ea3db961954</sys_update_name>
-        <sys_updated_by>divya</sys_updated_by>
-        <sys_updated_on>2018-02-27 12:36:56</sys_updated_on>
+        <sys_updated_by>Divya_M</sys_updated_by>
+        <sys_updated_on>2018-04-13 04:36:53</sys_updated_on>
         <template/>
         <type>item</type>
         <u_order_guide_attached/>
+        <u_schedule/>
         <upc/>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>

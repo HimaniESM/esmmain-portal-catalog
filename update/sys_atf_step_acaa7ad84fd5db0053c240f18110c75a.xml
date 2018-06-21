@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Validate that the answer match the following condition:
+Cost Center = Customer Support
+and OS Type = Linux
+and Support Group = Service Desk
+and Server Environment Type = Production
+and Primary Owner = ESM_ITIL_USER
+and Business Justification = Test</description>
+        <display_name>Validate Variable Values</display_name>
+        <inputs/>
+        <order>6</order>
+        <step_config display_value="Validate Variable Values">5a36c681c37e220076173b0ac3d3aecf</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-02 09:57:22</sys_created_on>
+        <sys_id>acaa7ad84fd5db0053c240f18110c75a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Validate Variable Values</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_atf_step_acaa7ad84fd5db0053c240f18110c75a</sys_update_name>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-02 10:14:13</sys_updated_on>
+        <table/>
+        <test display_value="Server Commissioning -Service Catalog ">54aa72d84fd5db0053c240f18110c77c</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=acaa7ad84fd5db0053c240f18110c75a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>acaa7ad84fd5db0053c240f18110c75a</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-02 09:57:22</sys_created_on>
+        <sys_id>60aa7ad84fd5db0053c240f18110c75c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-02 10:14:13</sys_updated_on>
+        <value>IO:1d209c6a4f89d70053c240f18110c726=9e94be034f415b0053c240f18110c7d9^IO:906e8c2a4f89d70053c240f18110c722=Linux^IO:dddf886a4f89d70053c240f18110c7e4=f8363f3f6ff89300d69dc8c17c3ee4cd^IO:96eecc2a4f89d70053c240f18110c7f8=Production^IO:4c5f446a4f89d70053c240f18110c70f=e1536eae4f70130053c240f18110c731^IO:855098aa4f89d70053c240f18110c73b=Test^EQ</value>
+        <variable display_value="">8a682649c37e220076173b0ac3d3ae47</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>acaa7ad84fd5db0053c240f18110c75a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Amit Kumar</sys_created_by>
+        <sys_created_on>2018-04-02 09:57:22</sys_created_on>
+        <sys_id>acaa7ad84fd5db0053c240f18110c75b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-02 09:57:22</sys_updated_on>
+        <value/>
+        <variable display_value="">b46842c1c37e220076173b0ac3d3aebc</variable>
+    </sys_variable_value>
+</record_update>

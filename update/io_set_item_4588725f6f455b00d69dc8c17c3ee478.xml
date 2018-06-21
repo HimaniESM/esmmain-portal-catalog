@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>200</order>
+        <sc_cat_item display_value="Space allocation in new location">3a18fe1f6f455b00d69dc8c17c3ee45f</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-03-30 07:14:13</sys_created_on>
+        <sys_id>4588725f6f455b00d69dc8c17c3ee478</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Request Description.Space allocation in new location</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>io_set_item_4588725f6f455b00d69dc8c17c3ee478</sys_update_name>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-03-30 07:16:50</sys_updated_on>
+        <variable_set display_value="Request Description">d9001d0f6f491b00d69dc8c17c3ee452</variable_set>
+    </io_set_item>
+</record_update>

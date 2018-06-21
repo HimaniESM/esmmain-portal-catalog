@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:9b8c2d7a4f851b0053c240f18110c7e5</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>Sushil Kumar</sys_created_by>
+        <sys_created_on>2018-03-28 12:34:30</sys_created_on>
+        <sys_id>539ee5fa4f851b0053c240f18110c71f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>requester_location</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_539ee5fa4f851b0053c240f18110c71f</sys_update_name>
+        <sys_updated_by>Sushil Kumar</sys_updated_by>
+        <sys_updated_on>2018-03-28 12:34:30</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Making Variables mandatory onLoad">b17e65fa4f851b0053c240f18110c7bf</ui_policy>
+        <variable>requester_location</variable>
+        <variable_set display_value="Requestor Information">c94b2d3a4f851b0053c240f18110c72f</variable_set>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+</record_update>

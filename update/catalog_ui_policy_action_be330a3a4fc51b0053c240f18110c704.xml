@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Access to ESMCafe">e3c92df64f851b0053c240f18110c70f</catalog_item>
+        <catalog_variable>IO:88610af64fc51b0053c240f18110c706</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>Sushil Kumar</sys_created_by>
+        <sys_created_on>2018-03-28 14:04:41</sys_created_on>
+        <sys_id>be330a3a4fc51b0053c240f18110c704</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Access_Start_Date</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_be330a3a4fc51b0053c240f18110c704</sys_update_name>
+        <sys_updated_by>Sushil Kumar</sys_updated_by>
+        <sys_updated_on>2018-03-28 14:04:41</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Making field visible if admin access is true">0e03463a4fc51b0053c240f18110c7e3</ui_policy>
+        <variable>Access_Start_Date</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

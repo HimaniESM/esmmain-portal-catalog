@@ -15,10 +15,10 @@
         <field/>
         <global>true</global>
         <messages/>
-        <name>To Give Alert on Empty Workstation List</name>
+        <name>Esm_OnLoad_AlrtEmptyWorkStation</name>
         <order/>
         <script><![CDATA[function onLoad() {
-   //Type appropriate comment here, and begin script below
+   
 	if(g_form.getValue('workstation')==''){
 		alert('yes');
 		g_form.showFieldMsg('workstation','No asset allocated');
@@ -34,15 +34,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8b6e7603dbd857407b9b9ea3db9619d4</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>To Give Alert on Empty Workstation List</sys_name>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Esm_OnLoad_AlrtEmptyWorkStation</sys_name>
         <sys_overrides/>
         <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
         <sys_policy/>
         <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
         <sys_update_name>catalog_script_client_8b6e7603dbd857407b9b9ea3db9619d4</sys_update_name>
-        <sys_updated_by>divya</sys_updated_by>
-        <sys_updated_on>2018-02-20 06:25:56</sys_updated_on>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-23 06:38:20</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>

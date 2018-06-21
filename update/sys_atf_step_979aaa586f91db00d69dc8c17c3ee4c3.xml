@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Search for 'Conference Equipments' in 'Service Catalog' and 'Conference Room' category and confirm that the search returns 'Conference Equipments' item</description>
+        <display_name>Search for a Catalog Item</display_name>
+        <inputs/>
+        <order>2</order>
+        <step_config display_value="Search for a Catalog Item">96103fdfc3e0320076173b0ac3d3ae57</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Manjeet_kumar</sys_created_by>
+        <sys_created_on>2018-04-02 08:47:24</sys_created_on>
+        <sys_id>979aaa586f91db00d69dc8c17c3ee4c3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Search for a Catalog Item</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_atf_step_979aaa586f91db00d69dc8c17c3ee4c3</sys_update_name>
+        <sys_updated_by>Manjeet_kumar</sys_updated_by>
+        <sys_updated_on>2018-04-02 08:48:28</sys_updated_on>
+        <table/>
+        <test display_value="Conference Equipments-service catalog ">1f9aaa586f91db00d69dc8c17c3ee4bc</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=979aaa586f91db00d69dc8c17c3ee4c3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>979aaa586f91db00d69dc8c17c3ee4c3</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manjeet_kumar</sys_created_by>
+        <sys_created_on>2018-04-02 08:47:24</sys_created_on>
+        <sys_id>1f9aaa586f91db00d69dc8c17c3ee4c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Manjeet_kumar</sys_updated_by>
+        <sys_updated_on>2018-04-02 08:48:28</sys_updated_on>
+        <value>132cf815db9853407b9b9ea3db96192e</value>
+        <variable display_value="">82233f13c324320076173b0ac3d3aef7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>979aaa586f91db00d69dc8c17c3ee4c3</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manjeet_kumar</sys_created_by>
+        <sys_created_on>2018-04-02 08:47:24</sys_created_on>
+        <sys_id>5b9aaa586f91db00d69dc8c17c3ee4c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Manjeet_kumar</sys_updated_by>
+        <sys_updated_on>2018-04-02 08:48:28</sys_updated_on>
+        <value>Conference Equipments</value>
+        <variable display_value="">4f32f713c324320076173b0ac3d3ae7e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>979aaa586f91db00d69dc8c17c3ee4c3</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manjeet_kumar</sys_created_by>
+        <sys_created_on>2018-04-02 08:47:24</sys_created_on>
+        <sys_id>979aaa586f91db00d69dc8c17c3ee4c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manjeet_kumar</sys_updated_by>
+        <sys_updated_on>2018-04-02 08:47:24</sys_updated_on>
+        <value>e0d08b13c3330100c8b837659bba8fb4</value>
+        <variable display_value="">45623b13c324320076173b0ac3d3aefc</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>979aaa586f91db00d69dc8c17c3ee4c3</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manjeet_kumar</sys_created_by>
+        <sys_created_on>2018-04-02 08:47:24</sys_created_on>
+        <sys_id>d39aaa586f91db00d69dc8c17c3ee4c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>Manjeet_kumar</sys_updated_by>
+        <sys_updated_on>2018-04-02 08:48:28</sys_updated_on>
+        <value>11feafe66f8dd700d69dc8c17c3ee46a</value>
+        <variable display_value="">0ddfbbd3c324320076173b0ac3d3ae07</variable>
+    </sys_variable_value>
+</record_update>

@@ -15,27 +15,25 @@
         <field/>
         <global>true</global>
         <messages/>
-        <name>To Validate Validity date</name>
+        <name>Esm_OnChange_ValiValidityDate</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
    if (isLoading || newValue == '') {
       return;
    }
 
-   //Type appropriate comment here, and begin script below
+   
 	var today = new Date();  
   var end = new Date(newValue);  
   var intToday = (today.getUTCFullYear() * 10000) + (today.getUTCMonth() * 100) + today.getUTCDate();  
   var intEnd = (end.getUTCFullYear() * 10000) + (end.getUTCMonth() * 100) + end.getUTCDate();  
-  //clear the message  
-  //g_form.hideFieldMsg(control.hire_start_date);  
+  
   
   //Use UTC conversion, and verify each part is appropriate  
   if (intEnd > intToday + 5) {  
-  //this is valid, do nothing  
+   
   } else {  
-  ///g_form.showFieldMsg(control.hire_start_date,'Start date should be present or future date.','error');  
-  //g_form.clearValue(control.hire_start_date);  
+  
 	  alert("'Validity Date' should be only after 5 days of today's date");
 	  g_form.setValue('validity_date','');
   } 
@@ -47,15 +45,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>69632f0bdb1c57407b9b9ea3db9619ab</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>To Validate Validity date</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Esm_OnChange_ValiValidityDate</sys_name>
         <sys_overrides/>
         <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
         <sys_policy/>
         <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
         <sys_update_name>catalog_script_client_69632f0bdb1c57407b9b9ea3db9619ab</sys_update_name>
-        <sys_updated_by>divya</sys_updated_by>
-        <sys_updated_on>2018-02-20 09:00:40</sys_updated_on>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-23 06:44:55</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

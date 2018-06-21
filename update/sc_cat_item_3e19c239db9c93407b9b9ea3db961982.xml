@@ -7,7 +7,7 @@
         <category/>
         <cost>0</cost>
         <custom_cart/>
-        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan display_value="">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description/>
@@ -50,17 +50,18 @@
         <sys_created_by>divya</sys_created_by>
         <sys_created_on>2018-02-16 05:09:56</sys_created_on>
         <sys_id>3e19c239db9c93407b9b9ea3db961982</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Revoke Access from SAP</sys_name>
         <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
         <sys_policy/>
         <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
         <sys_update_name>sc_cat_item_3e19c239db9c93407b9b9ea3db961982</sys_update_name>
-        <sys_updated_by>divya</sys_updated_by>
-        <sys_updated_on>2018-03-14 05:20:50</sys_updated_on>
+        <sys_updated_by>Divya_M</sys_updated_by>
+        <sys_updated_on>2018-03-27 06:19:09</sys_updated_on>
         <template/>
         <type>item</type>
         <u_order_guide_attached display_value="Revoke  Access">6f46bc29db9093407b9b9ea3db961915</u_order_guide_attached>
+        <u_schedule/>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
         <visible_bundle>true</visible_bundle>

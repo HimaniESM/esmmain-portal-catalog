@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Validate that the answer match the following condition:
+Cost Center = Customer Support
+and Requestor's Manager = Amit Kumar
+and Business Justification = test</description>
+        <display_name>Validate Variable Values</display_name>
+        <inputs/>
+        <order>6</order>
+        <step_config display_value="Validate Variable Values">5a36c681c37e220076173b0ac3d3aecf</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Manjeet_kumar</sys_created_by>
+        <sys_created_on>2018-04-02 12:01:34</sys_created_on>
+        <sys_id>37071bd86f15db00d69dc8c17c3ee460</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Validate Variable Values</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_atf_step_37071bd86f15db00d69dc8c17c3ee460</sys_update_name>
+        <sys_updated_by>Manjeet_kumar</sys_updated_by>
+        <sys_updated_on>2018-04-02 12:01:34</sys_updated_on>
+        <table/>
+        <test display_value="Office Desktop-service catalog ">6b07d7d86f15db00d69dc8c17c3ee4ef</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=37071bd86f15db00d69dc8c17c3ee460"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>37071bd86f15db00d69dc8c17c3ee460</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manjeet_kumar</sys_created_by>
+        <sys_created_on>2018-04-02 12:01:34</sys_created_on>
+        <sys_id>b7071bd86f15db00d69dc8c17c3ee461</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manjeet_kumar</sys_updated_by>
+        <sys_updated_on>2018-04-02 12:01:34</sys_updated_on>
+        <value>IO:9c584c2bdb9497407b9b9ea3db961900=9e94be034f415b0053c240f18110c7d9^IO:64a7442bdb9497407b9b9ea3db961906=27120eaa6fb01300d69dc8c17c3ee4e6^IO:8b98cc2bdb9497407b9b9ea3db96192c=test^EQ</value>
+        <variable display_value="">8a682649c37e220076173b0ac3d3ae47</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>37071bd86f15db00d69dc8c17c3ee460</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manjeet_kumar</sys_created_by>
+        <sys_created_on>2018-04-02 12:01:34</sys_created_on>
+        <sys_id>f3071bd86f15db00d69dc8c17c3ee461</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manjeet_kumar</sys_updated_by>
+        <sys_updated_on>2018-04-02 12:01:34</sys_updated_on>
+        <value/>
+        <variable display_value="">b46842c1c37e220076173b0ac3d3aebc</variable>
+    </sys_variable_value>
+</record_update>

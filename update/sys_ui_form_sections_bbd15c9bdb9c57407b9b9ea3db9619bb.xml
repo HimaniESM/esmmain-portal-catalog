@@ -11,7 +11,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="pc_software_cat_item" name="pc_software_cat_item" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">bbd15c9bdb9c57407b9b9ea3db9619bb</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="pc_software_cat_item" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">f3d15c9bdb9c57407b9b9ea3db9619bd</sys_ui_section>
+            <sys_ui_section display_value="">f3d15c9bdb9c57407b9b9ea3db9619bd</sys_ui_section>
             <sys_updated_by>gautham_raj</sys_updated_by>
             <sys_updated_on>2018-02-20 12:19:02</sys_updated_on>
         </sys_ui_form_section>
@@ -25,7 +25,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="pc_software_cat_item" name="pc_software_cat_item" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">bbd15c9bdb9c57407b9b9ea3db9619bb</sys_ui_form>
-            <sys_ui_section caption="Details" display_value="Details" name="pc_software_cat_item" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">fbd15c9bdb9c57407b9b9ea3db9619be</sys_ui_section>
+            <sys_ui_section display_value="">fbd15c9bdb9c57407b9b9ea3db9619be</sys_ui_section>
             <sys_updated_by>gautham_raj</sys_updated_by>
             <sys_updated_on>2018-02-20 12:19:02</sys_updated_on>
         </sys_ui_form_section>
@@ -39,7 +39,7 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="pc_software_cat_item" name="pc_software_cat_item" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">bbd15c9bdb9c57407b9b9ea3db9619bb</sys_ui_form>
-            <sys_ui_section caption="Costs" display_value="Costs" name="pc_software_cat_item" sys_domain="global" view="f5a795fceb3211003623666cd206fe19">bbd15c9bdb9c57407b9b9ea3db9619c0</sys_ui_section>
+            <sys_ui_section display_value="">bbd15c9bdb9c57407b9b9ea3db9619c0</sys_ui_section>
             <sys_updated_by>gautham_raj</sys_updated_by>
             <sys_updated_on>2018-02-20 12:19:02</sys_updated_on>
         </sys_ui_form_section>

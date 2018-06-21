@@ -61,6 +61,7 @@
         <template/>
         <type>item</type>
         <u_order_guide_attached display_value="Revoke  Access">6f46bc29db9093407b9b9ea3db961915</u_order_guide_attached>
+        <u_schedule/>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
         <visible_bundle>true</visible_bundle>

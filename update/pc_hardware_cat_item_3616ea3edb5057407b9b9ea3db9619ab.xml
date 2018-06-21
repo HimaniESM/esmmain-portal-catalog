@@ -3,7 +3,7 @@
     <pc_hardware_cat_item action="INSERT_OR_UPDATE">
         <active>true</active>
         <auto_created>false</auto_created>
-        <availability>on_desktop</availability>
+        <availability>on_both</availability>
         <billable>false</billable>
         <category display_value="Printers">bd032dfadb9c17407b9b9ea3db96196a</category>
         <cost>499.99</cost>
@@ -56,20 +56,21 @@
         <sys_created_by>divya</sys_created_by>
         <sys_created_on>2018-02-19 09:50:51</sys_created_on>
         <sys_id>3616ea3edb5057407b9b9ea3db9619ab</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Canon imageCLASS Laser Printer</sys_name>
         <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
         <sys_policy/>
         <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
         <sys_update_name>pc_hardware_cat_item_3616ea3edb5057407b9b9ea3db9619ab</sys_update_name>
-        <sys_updated_by>divya</sys_updated_by>
-        <sys_updated_on>2018-02-27 12:24:11</sys_updated_on>
+        <sys_updated_by>Divya_M</sys_updated_by>
+        <sys_updated_on>2018-04-10 04:21:34</sys_updated_on>
         <template/>
         <type>item</type>
         <u_order_guide_attached/>
+        <u_schedule/>
         <upc/>
         <use_sc_layout>true</use_sc_layout>
-        <vendor display_value="Canon">b7ef1babc0a801690041986c505a0446</vendor>
+        <vendor display_value="">b7ef1babc0a801690041986c505a0446</vendor>
         <vendor_catalog_item/>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>

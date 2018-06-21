@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_email_layout">
+    <sys_email_layout action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <advanced_layout/>
+        <description>Email layout for SRM notification.</description>
+        <layout><![CDATA[<table height="5" style="width: 725px; background-color: #1182f2;">
+<tbody>
+<tr>
+<td><img src="sys_attachment.do?sys_id=6c220eff4ff4930053c240f18110c718" vspace="" hspace="" border="" align="baseline" alt="" title="" width="130" height="30" style="align: baseline;" /></td>
+</tr>
+</tbody>
+</table>
+<table width="725" height="9" style="background-color: #a3a2a2; height: 21px;">
+<tbody>
+<tr>
+<td>${mail_script:esm_subject}</td>
+</tr>
+</tbody>
+</table>
+<p>${notification:body}</p>
+<p><strong>Click here to view request:${URI_REF}</strong></p>
+<p><span style="text-decoration-line: underline;"><strong>Request&nbsp; Summary:</strong></span></p>
+<div>&nbsp; &nbsp; &nbsp; Number: ${number}</div>
+<div>&nbsp; &nbsp; &nbsp; Due date: ${due_date}</div>
+<div>&nbsp; &nbsp; &nbsp; Opened: ${opened_at}</div>
+<div>&nbsp; &nbsp; &nbsp; Approval: ${approval}</div>
+<div>&nbsp; &nbsp; &nbsp; Requested items:</div>
+<div>&nbsp; &nbsp; &nbsp; ${mail_script:requested items}</div>
+<div>
+<div></div>
+</div>
+<p><strong><span style="text-decoration-line: underline;">Quick Links :</span></strong></p>
+<p>To check all request,<span style="color: #ff9900;"><em><a title="CLICK HERE" href="https://infosysdemosvs6.service-now.com/nav_to.do?uri=/sc_request_list.do%3Fsysparm_clear_stack%3Dtrue%26sysparm_query%3Dactive%253Dtrue%255EEQ" style="color: #ff9900;">CLICK HERE</a></em></span></p>
+<p><strong>Regards,</strong><br /><strong>Request Management Team</strong></p>
+<hr style="width: 725px; float: left;" />
+<p></p>
+<table width="725" height="65" style="background-color: #1b7ee0; height: 38px;">
+<tbody>
+<tr>
+<td>
+<p><span style="color: #ffffff;">For any query please contact to Service Desk :9999 999 999</span></p>
+<p><span style="color: #ffffff;">This is an automated message. Please do not reply.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>${NOTIF_UNSUB} &nbsp;| ${NOTIF_PREFS}</p>
+<p></p>]]></layout>
+        <name>ESM SRM Email Layout</name>
+        <sys_class_name>sys_email_layout</sys_class_name>
+        <sys_created_by>Manjeet_kumar</sys_created_by>
+        <sys_created_on>2018-04-05 05:47:29</sys_created_on>
+        <sys_id>22cd11554f155f0053c240f18110c7d0</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>ESM SRM Email Layout</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_email_layout_22cd11554f155f0053c240f18110c7d0</sys_update_name>
+        <sys_updated_by>Manjeet_kumar</sys_updated_by>
+        <sys_updated_on>2018-04-05 09:14:02</sys_updated_on>
+    </sys_email_layout>
+</record_update>

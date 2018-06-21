@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Set quantity to 1</description>
+        <display_name>Set Catalog Item Quantity</display_name>
+        <inputs/>
+        <order>4</order>
+        <step_config display_value="Set Catalog Item Quantity">d5d9e7e7c3d7220076173b0ac3d3ae0b</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>Manjeet_kumar</sys_created_by>
+        <sys_created_on>2018-04-02 10:15:02</sys_created_on>
+        <sys_id>0bae72586fd1db00d69dc8c17c3ee4e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Catalog Item Quantity</sys_name>
+        <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
+        <sys_update_name>sys_atf_step_0bae72586fd1db00d69dc8c17c3ee4e1</sys_update_name>
+        <sys_updated_by>Manjeet_kumar</sys_updated_by>
+        <sys_updated_on>2018-04-02 10:15:02</sys_updated_on>
+        <table/>
+        <test display_value="Guest Internet Access-service catalog">0fae72586fd1db00d69dc8c17c3ee4a2</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=0bae72586fd1db00d69dc8c17c3ee4e1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>0bae72586fd1db00d69dc8c17c3ee4e1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manjeet_kumar</sys_created_by>
+        <sys_created_on>2018-04-02 10:15:02</sys_created_on>
+        <sys_id>07ae72586fd1db00d69dc8c17c3ee4e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manjeet_kumar</sys_updated_by>
+        <sys_updated_on>2018-04-02 10:15:02</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">3c267f6bc3d7220076173b0ac3d3ae56</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>0bae72586fd1db00d69dc8c17c3ee4e1</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Manjeet_kumar</sys_created_by>
+        <sys_created_on>2018-04-02 10:15:02</sys_created_on>
+        <sys_id>c7ae72586fd1db00d69dc8c17c3ee4e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Manjeet_kumar</sys_updated_by>
+        <sys_updated_on>2018-04-02 10:15:02</sys_updated_on>
+        <value/>
+        <variable display_value="">acc08ef4c350320076173b0ac3d3ae21</variable>
+    </sys_variable_value>
+</record_update>

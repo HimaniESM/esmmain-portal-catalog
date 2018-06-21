@@ -15,7 +15,7 @@
         <field/>
         <global>true</global>
         <messages/>
-        <name>New group email Validation </name>
+        <name>Esm_OnChange_NewGrpEmialValidation</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
    if (isLoading || newValue == '') {
@@ -30,7 +30,13 @@
 		alert("Enter valid Email Address.");
 		g_form.clearValue('create_group_email');
 	}
-   //Type appropriate comment here, and begin script below
+
+	function isEmailValid(email){
+		var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+		
+		if (re.test(email)) 
+			return true;
+	}
    
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
@@ -39,15 +45,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>90cb6a29dbd493407b9b9ea3db96199c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>New group email Validation </sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Esm_OnChange_NewGrpEmialValidation</sys_name>
         <sys_overrides/>
         <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
         <sys_policy/>
         <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
         <sys_update_name>catalog_script_client_90cb6a29dbd493407b9b9ea3db96199c</sys_update_name>
-        <sys_updated_by>divya</sys_updated_by>
-        <sys_updated_on>2018-02-15 13:02:29</sys_updated_on>
+        <sys_updated_by>Amit Kumar</sys_updated_by>
+        <sys_updated_on>2018-04-23 06:21:32</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

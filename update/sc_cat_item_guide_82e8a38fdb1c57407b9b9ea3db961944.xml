@@ -8,7 +8,7 @@
         <category display_value="Software Services">c73ab4d1db9853407b9b9ea3db961922</category>
         <cost>0</cost>
         <custom_cart/>
-        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan display_value="">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description><![CDATA[<p><strong><span style="font-size: 14.0pt; color: black;">You can use this form to request access for the following: </span></strong></p>
@@ -57,18 +57,19 @@
         <sys_created_by>divya</sys_created_by>
         <sys_created_on>2018-02-20 09:20:29</sys_created_on>
         <sys_id>82e8a38fdb1c57407b9b9ea3db961944</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Request For Software</sys_name>
         <sys_package display_value="esm_main_service_catalog" source="x_infte_esm_main_s">f84678dddb5853407b9b9ea3db961940</sys_package>
         <sys_policy/>
         <sys_scope display_value="esm_main_service_catalog">f84678dddb5853407b9b9ea3db961940</sys_scope>
         <sys_update_name>sc_cat_item_guide_82e8a38fdb1c57407b9b9ea3db961944</sys_update_name>
-        <sys_updated_by>divya</sys_updated_by>
-        <sys_updated_on>2018-02-20 11:43:04</sys_updated_on>
+        <sys_updated_by>Divya_M</sys_updated_by>
+        <sys_updated_on>2018-04-10 10:43:27</sys_updated_on>
         <template/>
         <two_step>true</two_step>
         <type>item</type>
         <u_order_guide_attached/>
+        <u_schedule/>
         <use_sc_layout>true</use_sc_layout>
         <validator/>
         <vendor/>

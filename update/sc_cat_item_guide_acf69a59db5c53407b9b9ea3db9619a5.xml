@@ -8,7 +8,7 @@
         <category display_value="Application Access">4f79b891db9853407b9b9ea3db9619dc</category>
         <cost>0</cost>
         <custom_cart/>
-        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan display_value="">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description><![CDATA[<p><strong><span style="font-size: 14.0pt; color: black;">You can use this form to request access or change your permissions for the following: </span></strong></p>
@@ -69,6 +69,7 @@
         <two_step>true</two_step>
         <type>item</type>
         <u_order_guide_attached/>
+        <u_schedule/>
         <use_sc_layout>true</use_sc_layout>
         <validator/>
         <vendor/>
